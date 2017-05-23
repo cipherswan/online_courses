@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.UnTb = new System.Windows.Forms.TextBox();
-            this.PwTb = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -39,19 +39,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // UnTb
+            // textBox1
             // 
-            this.UnTb.Location = new System.Drawing.Point(90, 116);
-            this.UnTb.Name = "UnTb";
-            this.UnTb.Size = new System.Drawing.Size(224, 20);
-            this.UnTb.TabIndex = 0;
+            this.textBox1.Location = new System.Drawing.Point(90, 116);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(224, 20);
+            this.textBox1.TabIndex = 0;
             // 
-            // PwTb
+            // textBox2
             // 
-            this.PwTb.Location = new System.Drawing.Point(90, 152);
-            this.PwTb.Name = "PwTb";
-            this.PwTb.Size = new System.Drawing.Size(224, 20);
-            this.PwTb.TabIndex = 1;
+            this.textBox2.Location = new System.Drawing.Point(90, 152);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(224, 20);
+            this.textBox2.TabIndex = 1;
             // 
             // button1
             // 
@@ -122,8 +122,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.PwTb);
-            this.Controls.Add(this.UnTb);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
             this.MaximizeBox = false;
             this.Name = "LogInForm";
             this.Text = "Courses Co";
@@ -135,8 +135,8 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox UnTb;
-        private System.Windows.Forms.TextBox PwTb;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;

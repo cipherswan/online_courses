@@ -12,28 +12,17 @@ namespace PraktikaDuomenuBaze
 {
     public partial class RegistrationForm : Form
     {
-        Account account;
         public RegistrationForm()
         {
             InitializeComponent();
-            account = new Account();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text != "" && textBox3.Text != "" && textBox4.Text != "" && textBox4.Text == textBox3.Text)
-            {
-                account.Username = textBox1.Text;
-                account.Password = textBox3.Text;
-                Application.ExitThread();
-                Thread t = new Thread(() => Application.Run(new RegistrationForm2(account)));
-                t.Start();
-                this.Close();
-            }
-            else
-            {
-                MessageBox.Show("Some fields are left empty", "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-            }
+            Application.ExitThread();
+            Thread t = new Thread(() => Application.Run(new RegistrationForm2()));
+            t.Start();
+            this.Close();
         }
 
         private void button3_Click(object sender, EventArgs e)

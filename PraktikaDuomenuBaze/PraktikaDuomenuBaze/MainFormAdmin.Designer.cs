@@ -30,6 +30,12 @@
         {
             this.tabControl = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.listView10 = new System.Windows.Forms.ListView();
+            this.columnHeader48 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader49 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader50 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader51 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.DeleteAcc = new System.Windows.Forms.Button();
             this.EditAcc = new System.Windows.Forms.Button();
@@ -38,58 +44,25 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Username = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Password = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.IsAdmin = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.dataGridView4 = new System.Windows.Forms.DataGridView();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.dataGridView5 = new System.Windows.Forms.DataGridView();
-            this.IDLesson = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NameLesson = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CourseIDLesson = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.dataGridView7 = new System.Windows.Forms.DataGridView();
-            this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.dataGridView6 = new System.Windows.Forms.DataGridView();
-            this.tabPage8 = new System.Windows.Forms.TabPage();
-            this.dataGridView8 = new System.Windows.Forms.DataGridView();
-            this.IDRating = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Rating = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Comment = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CourseIDRating = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.AccountID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabPage9 = new System.Windows.Forms.TabPage();
-            this.dataGridView9 = new System.Windows.Forms.DataGridView();
-            this.OrderID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cost = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.AmuntOfPeople = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PersonID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CompanyIDOrder = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.IDCompany = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NameCompany = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CompanyNr = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PhoneNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.EmailAddress = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.FAX = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Address1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Address2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CourseID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NameCourse = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Duration = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CourseCost = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CategoryIDCourse = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CategoryID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CategoryName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabPage10 = new System.Windows.Forms.TabPage();
-            this.dataGridView10 = new System.Windows.Forms.DataGridView();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.listView9 = new System.Windows.Forms.ListView();
+            this.columnHeader41 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader42 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader43 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader44 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader45 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader46 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader47 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader40 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -98,15 +71,14 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
+            this.tabPage10 = new System.Windows.Forms.TabPage();
+            this.listView8 = new System.Windows.Forms.ListView();
+            this.columnHeader34 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader35 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader36 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader37 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader38 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader39 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.textBox11 = new System.Windows.Forms.TextBox();
@@ -124,6 +96,8 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.listView7 = new System.Windows.Forms.ListView();
             this.textBox17 = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.textBox18 = new System.Windows.Forms.TextBox();
@@ -141,14 +115,14 @@
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
-            this.IDPerson = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NamePerson = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Surname = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DateOfBirth = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PhoneNumberPerson = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.EmailAddressPerson = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.GroupID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CompanyID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.listView6 = new System.Windows.Forms.ListView();
+            this.columnHeader21 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader22 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader23 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader24 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader25 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader26 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label25 = new System.Windows.Forms.Label();
             this.textBox26 = new System.Windows.Forms.TextBox();
             this.textBox27 = new System.Windows.Forms.TextBox();
@@ -162,12 +136,13 @@
             this.textBox30 = new System.Windows.Forms.TextBox();
             this.label30 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
-            this.IDTeacher = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NameTeacher = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.SurnameTeacher = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PhoneNumberTeacher = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.EmailAddressTeacher = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.FAXTeacher = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.listView4 = new System.Windows.Forms.ListView();
+            this.columnHeader18 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader19 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader20 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.textBox24 = new System.Windows.Forms.TextBox();
+            this.label27 = new System.Windows.Forms.Label();
             this.textBox32 = new System.Windows.Forms.TextBox();
             this.button13 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
@@ -175,15 +150,28 @@
             this.textBox33 = new System.Windows.Forms.TextBox();
             this.label33 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.label27 = new System.Windows.Forms.Label();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.listView3 = new System.Windows.Forms.ListView();
+            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.button16 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
             this.textBox25 = new System.Windows.Forms.TextBox();
             this.label29 = new System.Windows.Forms.Label();
             this.textBox31 = new System.Windows.Forms.TextBox();
             this.label32 = new System.Windows.Forms.Label();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.listView5 = new System.Windows.Forms.ListView();
+            this.columnHeader13 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader14 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader15 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader16 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader17 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.textBox37 = new System.Windows.Forms.TextBox();
+            this.textBox38 = new System.Windows.Forms.TextBox();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
             this.textBox34 = new System.Windows.Forms.TextBox();
             this.label35 = new System.Windows.Forms.Label();
             this.textBox35 = new System.Windows.Forms.TextBox();
@@ -193,32 +181,41 @@
             this.textBox36 = new System.Windows.Forms.TextBox();
             this.label36 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
-            this.textBox37 = new System.Windows.Forms.TextBox();
-            this.textBox38 = new System.Windows.Forms.TextBox();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
+            this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.listView1 = new System.Windows.Forms.ListView();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.button22 = new System.Windows.Forms.Button();
+            this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.listView2 = new System.Windows.Forms.ListView();
+            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader12 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.button23 = new System.Windows.Forms.Button();
+            this.columnHeader33 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader54 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader55 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader56 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader57 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader58 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader59 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader60 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            this.tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
-            this.tabPage4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
-            this.tabPage5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
-            this.tabPage6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).BeginInit();
-            this.tabPage7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).BeginInit();
-            this.tabPage8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView8)).BeginInit();
-            this.tabPage9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView9)).BeginInit();
             this.tabPage10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView10)).BeginInit();
+            this.tabPage3.SuspendLayout();
+            this.tabPage4.SuspendLayout();
+            this.tabPage5.SuspendLayout();
+            this.tabPage6.SuspendLayout();
+            this.tabPage7.SuspendLayout();
+            this.tabPage8.SuspendLayout();
+            this.tabPage9.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl
@@ -241,6 +238,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.listView10);
             this.tabPage1.Controls.Add(this.comboBox1);
             this.tabPage1.Controls.Add(this.textBox2);
             this.tabPage1.Controls.Add(this.DeleteAcc);
@@ -250,52 +248,104 @@
             this.tabPage1.Controls.Add(this.label3);
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.label1);
-            this.tabPage1.Controls.Add(this.dataGridView1);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1051, 499);
+            this.tabPage1.Size = new System.Drawing.Size(1151, 499);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Accounts";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // listView10
+            // 
+            this.listView10.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader48,
+            this.columnHeader49,
+            this.columnHeader50,
+            this.columnHeader51});
+            this.listView10.FullRowSelect = true;
+            this.listView10.GridLines = true;
+            this.listView10.Location = new System.Drawing.Point(6, 6);
+            this.listView10.MultiSelect = false;
+            this.listView10.Name = "listView10";
+            this.listView10.Size = new System.Drawing.Size(618, 487);
+            this.listView10.TabIndex = 84;
+            this.listView10.UseCompatibleStateImageBehavior = false;
+            this.listView10.View = System.Windows.Forms.View.Details;
+            this.listView10.SelectedIndexChanged += new System.EventHandler(this.listView10_SelectedIndexChanged);
+            // 
+            // columnHeader48
+            // 
+            this.columnHeader48.Text = "ID";
+            this.columnHeader48.Width = 86;
+            // 
+            // columnHeader49
+            // 
+            this.columnHeader49.Text = "Username";
+            this.columnHeader49.Width = 111;
+            // 
+            // columnHeader50
+            // 
+            this.columnHeader50.Text = "Password";
+            this.columnHeader50.Width = 100;
+            // 
+            // columnHeader51
+            // 
+            this.columnHeader51.Text = "Is admin";
+            this.columnHeader51.Width = 114;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "False",
+            "True"});
+            this.comboBox1.Location = new System.Drawing.Point(754, 87);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(211, 21);
+            this.comboBox1.TabIndex = 9;
+            // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(503, 43);
+            this.textBox2.Location = new System.Drawing.Point(754, 61);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(211, 20);
             this.textBox2.TabIndex = 8;
             // 
             // DeleteAcc
             // 
-            this.DeleteAcc.Location = new System.Drawing.Point(639, 107);
+            this.DeleteAcc.Location = new System.Drawing.Point(890, 125);
             this.DeleteAcc.Name = "DeleteAcc";
             this.DeleteAcc.Size = new System.Drawing.Size(75, 23);
             this.DeleteAcc.TabIndex = 7;
             this.DeleteAcc.Text = "Delete";
             this.DeleteAcc.UseVisualStyleBackColor = true;
+            this.DeleteAcc.Click += new System.EventHandler(this.DeleteAcc_Click);
             // 
             // EditAcc
             // 
-            this.EditAcc.Location = new System.Drawing.Point(528, 107);
+            this.EditAcc.Location = new System.Drawing.Point(779, 125);
             this.EditAcc.Name = "EditAcc";
             this.EditAcc.Size = new System.Drawing.Size(75, 23);
             this.EditAcc.TabIndex = 6;
             this.EditAcc.Text = "Edit";
             this.EditAcc.UseVisualStyleBackColor = true;
+            this.EditAcc.Click += new System.EventHandler(this.EditAcc_Click);
             // 
             // Addacc
             // 
-            this.Addacc.Location = new System.Drawing.Point(415, 107);
+            this.Addacc.Location = new System.Drawing.Point(666, 125);
             this.Addacc.Name = "Addacc";
             this.Addacc.Size = new System.Drawing.Size(75, 23);
             this.Addacc.TabIndex = 5;
             this.Addacc.Text = "Add";
             this.Addacc.UseVisualStyleBackColor = true;
+            this.Addacc.Click += new System.EventHandler(this.Addacc_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(503, 17);
+            this.textBox1.Location = new System.Drawing.Point(754, 35);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(211, 20);
             this.textBox1.TabIndex = 4;
@@ -303,7 +353,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(415, 72);
+            this.label3.Location = new System.Drawing.Point(666, 90);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 13);
             this.label3.TabIndex = 3;
@@ -312,7 +362,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(415, 46);
+            this.label2.Location = new System.Drawing.Point(666, 64);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 13);
             this.label2.TabIndex = 2;
@@ -321,55 +371,15 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(415, 20);
+            this.label1.Location = new System.Drawing.Point(666, 38);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(55, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Username";
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ID,
-            this.Username,
-            this.Password,
-            this.IsAdmin});
-            this.dataGridView1.Location = new System.Drawing.Point(3, 6);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.Size = new System.Drawing.Size(406, 487);
-            this.dataGridView1.TabIndex = 0;
-            // 
-            // ID
-            // 
-            this.ID.HeaderText = "ID";
-            this.ID.Name = "ID";
-            this.ID.ReadOnly = true;
-            this.ID.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            // 
-            // Username
-            // 
-            this.Username.HeaderText = "Username";
-            this.Username.Name = "Username";
-            this.Username.ReadOnly = true;
-            this.Username.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            // 
-            // Password
-            // 
-            this.Password.HeaderText = "Password";
-            this.Password.Name = "Password";
-            this.Password.ReadOnly = true;
-            this.Password.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            // 
-            // IsAdmin
-            // 
-            this.IsAdmin.HeaderText = "IsAdmin";
-            this.IsAdmin.Name = "IsAdmin";
-            this.IsAdmin.ReadOnly = true;
-            // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.listView9);
             this.tabPage2.Controls.Add(this.textBox9);
             this.tabPage2.Controls.Add(this.label10);
             this.tabPage2.Controls.Add(this.textBox7);
@@ -387,7 +397,6 @@
             this.tabPage2.Controls.Add(this.label4);
             this.tabPage2.Controls.Add(this.label5);
             this.tabPage2.Controls.Add(this.label6);
-            this.tabPage2.Controls.Add(this.dataGridView2);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -396,548 +405,111 @@
             this.tabPage2.Text = "Companies";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // dataGridView2
+            // listView9
             // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.IDCompany,
-            this.NameCompany,
-            this.CompanyNr,
-            this.PhoneNumber,
-            this.EmailAddress,
-            this.FAX,
-            this.Address1,
-            this.Address2});
-            this.dataGridView2.Location = new System.Drawing.Point(6, 6);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.RowHeadersVisible = false;
-            this.dataGridView2.Size = new System.Drawing.Size(804, 487);
-            this.dataGridView2.TabIndex = 0;
+            this.listView9.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader41,
+            this.columnHeader42,
+            this.columnHeader43,
+            this.columnHeader44,
+            this.columnHeader45,
+            this.columnHeader46,
+            this.columnHeader47,
+            this.columnHeader40});
+            this.listView9.FullRowSelect = true;
+            this.listView9.GridLines = true;
+            this.listView9.Location = new System.Drawing.Point(6, 8);
+            this.listView9.MultiSelect = false;
+            this.listView9.Name = "listView9";
+            this.listView9.Size = new System.Drawing.Size(774, 485);
+            this.listView9.TabIndex = 87;
+            this.listView9.UseCompatibleStateImageBehavior = false;
+            this.listView9.View = System.Windows.Forms.View.Details;
+            this.listView9.SelectedIndexChanged += new System.EventHandler(this.listView9_SelectedIndexChanged);
             // 
-            // tabPage3
+            // columnHeader41
             // 
-            this.tabPage3.Controls.Add(this.textBox17);
-            this.tabPage3.Controls.Add(this.label18);
-            this.tabPage3.Controls.Add(this.textBox18);
-            this.tabPage3.Controls.Add(this.textBox19);
-            this.tabPage3.Controls.Add(this.textBox20);
-            this.tabPage3.Controls.Add(this.textBox21);
-            this.tabPage3.Controls.Add(this.label19);
-            this.tabPage3.Controls.Add(this.label20);
-            this.tabPage3.Controls.Add(this.label21);
-            this.tabPage3.Controls.Add(this.textBox22);
-            this.tabPage3.Controls.Add(this.button7);
-            this.tabPage3.Controls.Add(this.button8);
-            this.tabPage3.Controls.Add(this.button9);
-            this.tabPage3.Controls.Add(this.textBox23);
-            this.tabPage3.Controls.Add(this.label22);
-            this.tabPage3.Controls.Add(this.label23);
-            this.tabPage3.Controls.Add(this.label24);
-            this.tabPage3.Controls.Add(this.dataGridView3);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1151, 499);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "People";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            this.columnHeader41.Text = "ID";
+            this.columnHeader41.Width = 86;
             // 
-            // dataGridView3
+            // columnHeader42
             // 
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.IDPerson,
-            this.NamePerson,
-            this.Surname,
-            this.DateOfBirth,
-            this.PhoneNumberPerson,
-            this.EmailAddressPerson,
-            this.GroupID,
-            this.CompanyID});
-            this.dataGridView3.Location = new System.Drawing.Point(6, 6);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.RowHeadersVisible = false;
-            this.dataGridView3.Size = new System.Drawing.Size(806, 487);
-            this.dataGridView3.TabIndex = 0;
+            this.columnHeader42.Text = "Name";
+            this.columnHeader42.Width = 111;
             // 
-            // tabPage4
+            // columnHeader43
             // 
-            this.tabPage4.Controls.Add(this.label25);
-            this.tabPage4.Controls.Add(this.textBox26);
-            this.tabPage4.Controls.Add(this.textBox27);
-            this.tabPage4.Controls.Add(this.textBox28);
-            this.tabPage4.Controls.Add(this.label26);
-            this.tabPage4.Controls.Add(this.label28);
-            this.tabPage4.Controls.Add(this.textBox29);
-            this.tabPage4.Controls.Add(this.button10);
-            this.tabPage4.Controls.Add(this.button11);
-            this.tabPage4.Controls.Add(this.button12);
-            this.tabPage4.Controls.Add(this.textBox30);
-            this.tabPage4.Controls.Add(this.label30);
-            this.tabPage4.Controls.Add(this.label31);
-            this.tabPage4.Controls.Add(this.dataGridView4);
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1151, 499);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Teachers";
-            this.tabPage4.UseVisualStyleBackColor = true;
+            this.columnHeader43.Text = "CompanyID";
+            this.columnHeader43.Width = 100;
             // 
-            // dataGridView4
+            // columnHeader44
             // 
-            this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.IDTeacher,
-            this.NameTeacher,
-            this.SurnameTeacher,
-            this.PhoneNumberTeacher,
-            this.EmailAddressTeacher,
-            this.FAXTeacher});
-            this.dataGridView4.Location = new System.Drawing.Point(6, 6);
-            this.dataGridView4.Name = "dataGridView4";
-            this.dataGridView4.RowHeadersVisible = false;
-            this.dataGridView4.Size = new System.Drawing.Size(605, 487);
-            this.dataGridView4.TabIndex = 0;
+            this.columnHeader44.Text = "Phone number";
+            this.columnHeader44.Width = 105;
             // 
-            // tabPage5
+            // columnHeader45
             // 
-            this.tabPage5.Controls.Add(this.textBox24);
-            this.tabPage5.Controls.Add(this.label27);
-            this.tabPage5.Controls.Add(this.textBox32);
-            this.tabPage5.Controls.Add(this.button13);
-            this.tabPage5.Controls.Add(this.button14);
-            this.tabPage5.Controls.Add(this.button15);
-            this.tabPage5.Controls.Add(this.textBox33);
-            this.tabPage5.Controls.Add(this.label33);
-            this.tabPage5.Controls.Add(this.label34);
-            this.tabPage5.Controls.Add(this.dataGridView5);
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(1151, 499);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Lessons";
-            this.tabPage5.UseVisualStyleBackColor = true;
+            this.columnHeader45.Text = "E-mail Address";
+            this.columnHeader45.Width = 118;
             // 
-            // dataGridView5
+            // columnHeader46
             // 
-            this.dataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView5.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.IDLesson,
-            this.NameLesson,
-            this.CourseIDLesson});
-            this.dataGridView5.Location = new System.Drawing.Point(6, 6);
-            this.dataGridView5.Name = "dataGridView5";
-            this.dataGridView5.RowHeadersVisible = false;
-            this.dataGridView5.Size = new System.Drawing.Size(305, 487);
-            this.dataGridView5.TabIndex = 0;
+            this.columnHeader46.Text = "Fax";
+            this.columnHeader46.Width = 105;
             // 
-            // IDLesson
+            // columnHeader47
             // 
-            this.IDLesson.HeaderText = "ID";
-            this.IDLesson.Name = "IDLesson";
-            this.IDLesson.ReadOnly = true;
+            this.columnHeader47.Text = "Address 1";
+            this.columnHeader47.Width = 117;
             // 
-            // NameLesson
+            // columnHeader40
             // 
-            this.NameLesson.HeaderText = "Name";
-            this.NameLesson.Name = "NameLesson";
-            this.NameLesson.ReadOnly = true;
+            this.columnHeader40.Text = "Address 2";
+            this.columnHeader40.Width = 99;
             // 
-            // CourseIDLesson
+            // textBox9
             // 
-            this.CourseIDLesson.HeaderText = "CourseID";
-            this.CourseIDLesson.Name = "CourseIDLesson";
-            this.CourseIDLesson.ReadOnly = true;
+            this.textBox9.Location = new System.Drawing.Point(904, 164);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(211, 20);
+            this.textBox9.TabIndex = 26;
             // 
-            // tabPage6
+            // label10
             // 
-            this.tabPage6.Controls.Add(this.button16);
-            this.tabPage6.Controls.Add(this.button17);
-            this.tabPage6.Controls.Add(this.button18);
-            this.tabPage6.Controls.Add(this.textBox25);
-            this.tabPage6.Controls.Add(this.label29);
-            this.tabPage6.Controls.Add(this.textBox31);
-            this.tabPage6.Controls.Add(this.label32);
-            this.tabPage6.Controls.Add(this.dataGridView7);
-            this.tabPage6.Location = new System.Drawing.Point(4, 22);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(1151, 499);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "Categories";
-            this.tabPage6.UseVisualStyleBackColor = true;
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(816, 167);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(51, 13);
+            this.label10.TabIndex = 25;
+            this.label10.Text = "Address2";
             // 
-            // dataGridView7
+            // textBox7
             // 
-            this.dataGridView7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView7.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.CategoryID,
-            this.CategoryName});
-            this.dataGridView7.Location = new System.Drawing.Point(6, 6);
-            this.dataGridView7.Name = "dataGridView7";
-            this.dataGridView7.RowHeadersVisible = false;
-            this.dataGridView7.Size = new System.Drawing.Size(255, 487);
-            this.dataGridView7.TabIndex = 0;
+            this.textBox7.Location = new System.Drawing.Point(904, 138);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(211, 20);
+            this.textBox7.TabIndex = 24;
             // 
-            // tabPage7
+            // textBox8
             // 
-            this.tabPage7.Controls.Add(this.textBox37);
-            this.tabPage7.Controls.Add(this.textBox38);
-            this.tabPage7.Controls.Add(this.label38);
-            this.tabPage7.Controls.Add(this.label39);
-            this.tabPage7.Controls.Add(this.textBox34);
-            this.tabPage7.Controls.Add(this.label35);
-            this.tabPage7.Controls.Add(this.textBox35);
-            this.tabPage7.Controls.Add(this.button19);
-            this.tabPage7.Controls.Add(this.button20);
-            this.tabPage7.Controls.Add(this.button21);
-            this.tabPage7.Controls.Add(this.textBox36);
-            this.tabPage7.Controls.Add(this.label36);
-            this.tabPage7.Controls.Add(this.label37);
-            this.tabPage7.Controls.Add(this.dataGridView6);
-            this.tabPage7.Location = new System.Drawing.Point(4, 22);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(1151, 499);
-            this.tabPage7.TabIndex = 6;
-            this.tabPage7.Text = "Courses";
-            this.tabPage7.UseVisualStyleBackColor = true;
+            this.textBox8.Location = new System.Drawing.Point(904, 112);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(211, 20);
+            this.textBox8.TabIndex = 23;
             // 
-            // dataGridView6
+            // textBox5
             // 
-            this.dataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView6.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.CourseID,
-            this.NameCourse,
-            this.Duration,
-            this.CourseCost,
-            this.CategoryIDCourse});
-            this.dataGridView6.Location = new System.Drawing.Point(6, 6);
-            this.dataGridView6.Name = "dataGridView6";
-            this.dataGridView6.RowHeadersVisible = false;
-            this.dataGridView6.Size = new System.Drawing.Size(604, 487);
-            this.dataGridView6.TabIndex = 1;
+            this.textBox5.Location = new System.Drawing.Point(904, 86);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(211, 20);
+            this.textBox5.TabIndex = 22;
             // 
-            // tabPage8
+            // textBox6
             // 
-            this.tabPage8.Controls.Add(this.button22);
-            this.tabPage8.Controls.Add(this.dataGridView8);
-            this.tabPage8.Location = new System.Drawing.Point(4, 22);
-            this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(1151, 499);
-            this.tabPage8.TabIndex = 7;
-            this.tabPage8.Text = "Ratings";
-            this.tabPage8.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView8
-            // 
-            this.dataGridView8.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView8.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.IDRating,
-            this.Rating,
-            this.Comment,
-            this.CourseIDRating,
-            this.AccountID});
-            this.dataGridView8.Location = new System.Drawing.Point(6, 6);
-            this.dataGridView8.Name = "dataGridView8";
-            this.dataGridView8.RowHeadersVisible = false;
-            this.dataGridView8.Size = new System.Drawing.Size(705, 487);
-            this.dataGridView8.TabIndex = 0;
-            // 
-            // IDRating
-            // 
-            this.IDRating.HeaderText = "ID";
-            this.IDRating.Name = "IDRating";
-            this.IDRating.ReadOnly = true;
-            // 
-            // Rating
-            // 
-            this.Rating.HeaderText = "Rating";
-            this.Rating.Name = "Rating";
-            this.Rating.ReadOnly = true;
-            // 
-            // Comment
-            // 
-            this.Comment.HeaderText = "Comment";
-            this.Comment.Name = "Comment";
-            this.Comment.ReadOnly = true;
-            this.Comment.Width = 300;
-            // 
-            // CourseIDRating
-            // 
-            this.CourseIDRating.HeaderText = "CourseID";
-            this.CourseIDRating.Name = "CourseIDRating";
-            this.CourseIDRating.ReadOnly = true;
-            // 
-            // AccountID
-            // 
-            this.AccountID.HeaderText = "AccountID";
-            this.AccountID.Name = "AccountID";
-            this.AccountID.ReadOnly = true;
-            // 
-            // tabPage9
-            // 
-            this.tabPage9.Controls.Add(this.dataGridView9);
-            this.tabPage9.Location = new System.Drawing.Point(4, 22);
-            this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage9.Size = new System.Drawing.Size(1151, 499);
-            this.tabPage9.TabIndex = 8;
-            this.tabPage9.Text = "Orders";
-            this.tabPage9.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView9
-            // 
-            this.dataGridView9.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView9.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.OrderID,
-            this.Cost,
-            this.AmuntOfPeople,
-            this.PersonID,
-            this.CompanyIDOrder});
-            this.dataGridView9.Location = new System.Drawing.Point(6, 6);
-            this.dataGridView9.Name = "dataGridView9";
-            this.dataGridView9.RowHeadersVisible = false;
-            this.dataGridView9.Size = new System.Drawing.Size(506, 487);
-            this.dataGridView9.TabIndex = 0;
-            // 
-            // OrderID
-            // 
-            this.OrderID.HeaderText = "ID";
-            this.OrderID.Name = "OrderID";
-            this.OrderID.ReadOnly = true;
-            // 
-            // Cost
-            // 
-            this.Cost.HeaderText = "Cost";
-            this.Cost.Name = "Cost";
-            this.Cost.ReadOnly = true;
-            // 
-            // AmuntOfPeople
-            // 
-            this.AmuntOfPeople.HeaderText = "AmountOfPeople";
-            this.AmuntOfPeople.Name = "AmuntOfPeople";
-            this.AmuntOfPeople.ReadOnly = true;
-            // 
-            // PersonID
-            // 
-            this.PersonID.HeaderText = "PersonID";
-            this.PersonID.Name = "PersonID";
-            this.PersonID.ReadOnly = true;
-            // 
-            // CompanyIDOrder
-            // 
-            this.CompanyIDOrder.HeaderText = "CompanyID";
-            this.CompanyIDOrder.Name = "CompanyIDOrder";
-            this.CompanyIDOrder.ReadOnly = true;
-            // 
-            // IDCompany
-            // 
-            this.IDCompany.HeaderText = "ID";
-            this.IDCompany.Name = "IDCompany";
-            this.IDCompany.ReadOnly = true;
-            // 
-            // NameCompany
-            // 
-            this.NameCompany.HeaderText = "CompanyName";
-            this.NameCompany.Name = "NameCompany";
-            this.NameCompany.ReadOnly = true;
-            // 
-            // CompanyNr
-            // 
-            this.CompanyNr.HeaderText = "CompanyNr";
-            this.CompanyNr.Name = "CompanyNr";
-            this.CompanyNr.ReadOnly = true;
-            // 
-            // PhoneNumber
-            // 
-            this.PhoneNumber.HeaderText = "PhoneNumber";
-            this.PhoneNumber.Name = "PhoneNumber";
-            this.PhoneNumber.ReadOnly = true;
-            // 
-            // EmailAddress
-            // 
-            this.EmailAddress.HeaderText = "E-mail Address";
-            this.EmailAddress.Name = "EmailAddress";
-            this.EmailAddress.ReadOnly = true;
-            // 
-            // FAX
-            // 
-            this.FAX.HeaderText = "FAX";
-            this.FAX.Name = "FAX";
-            this.FAX.ReadOnly = true;
-            // 
-            // Address1
-            // 
-            this.Address1.HeaderText = "Address1";
-            this.Address1.Name = "Address1";
-            this.Address1.ReadOnly = true;
-            // 
-            // Address2
-            // 
-            this.Address2.HeaderText = "Address2";
-            this.Address2.Name = "Address2";
-            this.Address2.ReadOnly = true;
-            // 
-            // CourseID
-            // 
-            this.CourseID.HeaderText = "ID";
-            this.CourseID.Name = "CourseID";
-            this.CourseID.ReadOnly = true;
-            // 
-            // NameCourse
-            // 
-            this.NameCourse.HeaderText = "Name";
-            this.NameCourse.Name = "NameCourse";
-            this.NameCourse.ReadOnly = true;
-            this.NameCourse.Width = 150;
-            // 
-            // Duration
-            // 
-            this.Duration.HeaderText = "Duration";
-            this.Duration.Name = "Duration";
-            this.Duration.ReadOnly = true;
-            // 
-            // CourseCost
-            // 
-            this.CourseCost.HeaderText = "Cost";
-            this.CourseCost.Name = "CourseCost";
-            this.CourseCost.ReadOnly = true;
-            // 
-            // CategoryIDCourse
-            // 
-            this.CategoryIDCourse.HeaderText = "CategoryID";
-            this.CategoryIDCourse.Name = "CategoryIDCourse";
-            this.CategoryIDCourse.ReadOnly = true;
-            this.CategoryIDCourse.Width = 150;
-            // 
-            // CategoryID
-            // 
-            this.CategoryID.HeaderText = "ID";
-            this.CategoryID.Name = "CategoryID";
-            this.CategoryID.ReadOnly = true;
-            // 
-            // CategoryName
-            // 
-            this.CategoryName.HeaderText = "Name";
-            this.CategoryName.Name = "CategoryName";
-            this.CategoryName.ReadOnly = true;
-            this.CategoryName.Width = 150;
-            // 
-            // tabPage10
-            // 
-            this.tabPage10.Controls.Add(this.textBox10);
-            this.tabPage10.Controls.Add(this.label11);
-            this.tabPage10.Controls.Add(this.textBox11);
-            this.tabPage10.Controls.Add(this.textBox12);
-            this.tabPage10.Controls.Add(this.textBox13);
-            this.tabPage10.Controls.Add(this.textBox14);
-            this.tabPage10.Controls.Add(this.label12);
-            this.tabPage10.Controls.Add(this.label13);
-            this.tabPage10.Controls.Add(this.label14);
-            this.tabPage10.Controls.Add(this.textBox15);
-            this.tabPage10.Controls.Add(this.button4);
-            this.tabPage10.Controls.Add(this.button5);
-            this.tabPage10.Controls.Add(this.button6);
-            this.tabPage10.Controls.Add(this.textBox16);
-            this.tabPage10.Controls.Add(this.label15);
-            this.tabPage10.Controls.Add(this.label16);
-            this.tabPage10.Controls.Add(this.label17);
-            this.tabPage10.Controls.Add(this.dataGridView10);
-            this.tabPage10.Location = new System.Drawing.Point(4, 22);
-            this.tabPage10.Name = "tabPage10";
-            this.tabPage10.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage10.Size = new System.Drawing.Size(1151, 499);
-            this.tabPage10.TabIndex = 9;
-            this.tabPage10.Text = "Providers";
-            this.tabPage10.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView10
-            // 
-            this.dataGridView10.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView10.Location = new System.Drawing.Point(6, 6);
-            this.dataGridView10.Name = "dataGridView10";
-            this.dataGridView10.Size = new System.Drawing.Size(513, 487);
-            this.dataGridView10.TabIndex = 0;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(503, 69);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(211, 21);
-            this.comboBox1.TabIndex = 9;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(904, 34);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(211, 20);
-            this.textBox3.TabIndex = 17;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(1043, 197);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 16;
-            this.button1.Text = "Delete";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(932, 197);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "Edit";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(819, 197);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 14;
-            this.button3.Text = "Add";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(904, 8);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(211, 20);
-            this.textBox4.TabIndex = 13;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(816, 63);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(75, 13);
-            this.label4.TabIndex = 12;
-            this.label4.Text = "PhoneNumber";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(816, 37);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(62, 13);
-            this.label5.TabIndex = 11;
-            this.label5.Text = "CompanyNr";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(816, 11);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(79, 13);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "CompanyName";
+            this.textBox6.Location = new System.Drawing.Point(904, 60);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(211, 20);
+            this.textBox6.TabIndex = 21;
             // 
             // label7
             // 
@@ -966,53 +538,158 @@
             this.label9.TabIndex = 18;
             this.label9.Text = "E-mail Address";
             // 
-            // textBox5
+            // textBox3
             // 
-            this.textBox5.Location = new System.Drawing.Point(904, 86);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(211, 20);
-            this.textBox5.TabIndex = 22;
+            this.textBox3.Location = new System.Drawing.Point(904, 34);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(211, 20);
+            this.textBox3.TabIndex = 17;
             // 
-            // textBox6
+            // button1
             // 
-            this.textBox6.Location = new System.Drawing.Point(904, 60);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(211, 20);
-            this.textBox6.TabIndex = 21;
+            this.button1.Location = new System.Drawing.Point(1043, 197);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "Delete";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox7
+            // button2
             // 
-            this.textBox7.Location = new System.Drawing.Point(904, 138);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(211, 20);
-            this.textBox7.TabIndex = 24;
+            this.button2.Location = new System.Drawing.Point(932, 197);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 15;
+            this.button2.Text = "Edit";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // textBox8
+            // button3
             // 
-            this.textBox8.Location = new System.Drawing.Point(904, 112);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(211, 20);
-            this.textBox8.TabIndex = 23;
+            this.button3.Location = new System.Drawing.Point(819, 197);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 14;
+            this.button3.Text = "Add";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // textBox9
+            // textBox4
             // 
-            this.textBox9.Location = new System.Drawing.Point(904, 164);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(211, 20);
-            this.textBox9.TabIndex = 26;
+            this.textBox4.Location = new System.Drawing.Point(904, 8);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(211, 20);
+            this.textBox4.TabIndex = 13;
             // 
-            // label10
+            // label4
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(816, 167);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(51, 13);
-            this.label10.TabIndex = 25;
-            this.label10.Text = "Address2";
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(816, 63);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(75, 13);
+            this.label4.TabIndex = 12;
+            this.label4.Text = "PhoneNumber";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(816, 37);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(65, 13);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "Company ID";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(816, 11);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(79, 13);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "CompanyName";
+            // 
+            // tabPage10
+            // 
+            this.tabPage10.Controls.Add(this.listView8);
+            this.tabPage10.Controls.Add(this.textBox10);
+            this.tabPage10.Controls.Add(this.label11);
+            this.tabPage10.Controls.Add(this.textBox11);
+            this.tabPage10.Controls.Add(this.textBox12);
+            this.tabPage10.Controls.Add(this.textBox13);
+            this.tabPage10.Controls.Add(this.textBox14);
+            this.tabPage10.Controls.Add(this.label12);
+            this.tabPage10.Controls.Add(this.label13);
+            this.tabPage10.Controls.Add(this.label14);
+            this.tabPage10.Controls.Add(this.textBox15);
+            this.tabPage10.Controls.Add(this.button4);
+            this.tabPage10.Controls.Add(this.button5);
+            this.tabPage10.Controls.Add(this.button6);
+            this.tabPage10.Controls.Add(this.textBox16);
+            this.tabPage10.Controls.Add(this.label15);
+            this.tabPage10.Controls.Add(this.label16);
+            this.tabPage10.Controls.Add(this.label17);
+            this.tabPage10.Location = new System.Drawing.Point(4, 22);
+            this.tabPage10.Name = "tabPage10";
+            this.tabPage10.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage10.Size = new System.Drawing.Size(1151, 499);
+            this.tabPage10.TabIndex = 9;
+            this.tabPage10.Text = "Providers";
+            this.tabPage10.UseVisualStyleBackColor = true;
+            this.tabPage10.Click += new System.EventHandler(this.tabPage10_Click);
+            // 
+            // listView8
+            // 
+            this.listView8.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader34,
+            this.columnHeader35,
+            this.columnHeader36,
+            this.columnHeader37,
+            this.columnHeader38,
+            this.columnHeader39});
+            this.listView8.FullRowSelect = true;
+            this.listView8.GridLines = true;
+            this.listView8.Location = new System.Drawing.Point(6, 6);
+            this.listView8.MultiSelect = false;
+            this.listView8.Name = "listView8";
+            this.listView8.Size = new System.Drawing.Size(638, 490);
+            this.listView8.TabIndex = 86;
+            this.listView8.UseCompatibleStateImageBehavior = false;
+            this.listView8.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader34
+            // 
+            this.columnHeader34.Text = "ID";
+            this.columnHeader34.Width = 86;
+            // 
+            // columnHeader35
+            // 
+            this.columnHeader35.Text = "Name";
+            this.columnHeader35.Width = 111;
+            // 
+            // columnHeader36
+            // 
+            this.columnHeader36.Text = "Surname";
+            this.columnHeader36.Width = 100;
+            // 
+            // columnHeader37
+            // 
+            this.columnHeader37.Text = "Phone Number";
+            this.columnHeader37.Width = 105;
+            // 
+            // columnHeader38
+            // 
+            this.columnHeader38.Text = "E-mail Address";
+            this.columnHeader38.Width = 118;
+            // 
+            // columnHeader39
+            // 
+            this.columnHeader39.Text = "Date of birth";
+            this.columnHeader39.Width = 105;
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(613, 169);
+            this.textBox10.Location = new System.Drawing.Point(767, 442);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(211, 20);
             this.textBox10.TabIndex = 43;
@@ -1020,7 +697,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(525, 172);
+            this.label11.Location = new System.Drawing.Point(679, 445);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(51, 13);
             this.label11.TabIndex = 42;
@@ -1028,28 +705,28 @@
             // 
             // textBox11
             // 
-            this.textBox11.Location = new System.Drawing.Point(613, 143);
+            this.textBox11.Location = new System.Drawing.Point(767, 416);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(211, 20);
             this.textBox11.TabIndex = 41;
             // 
             // textBox12
             // 
-            this.textBox12.Location = new System.Drawing.Point(613, 117);
+            this.textBox12.Location = new System.Drawing.Point(767, 118);
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(211, 20);
             this.textBox12.TabIndex = 40;
             // 
             // textBox13
             // 
-            this.textBox13.Location = new System.Drawing.Point(613, 91);
+            this.textBox13.Location = new System.Drawing.Point(767, 92);
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(211, 20);
             this.textBox13.TabIndex = 39;
             // 
             // textBox14
             // 
-            this.textBox14.Location = new System.Drawing.Point(613, 65);
+            this.textBox14.Location = new System.Drawing.Point(767, 66);
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(211, 20);
             this.textBox14.TabIndex = 38;
@@ -1057,7 +734,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(525, 146);
+            this.label12.Location = new System.Drawing.Point(679, 419);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(51, 13);
             this.label12.TabIndex = 37;
@@ -1066,16 +743,16 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(525, 120);
+            this.label13.Location = new System.Drawing.Point(679, 121);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(27, 13);
+            this.label13.Size = new System.Drawing.Size(65, 13);
             this.label13.TabIndex = 36;
-            this.label13.Text = "FAX";
+            this.label13.Text = "Date of birth";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(525, 94);
+            this.label14.Location = new System.Drawing.Point(679, 95);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(76, 13);
             this.label14.TabIndex = 35;
@@ -1083,41 +760,44 @@
             // 
             // textBox15
             // 
-            this.textBox15.Location = new System.Drawing.Point(613, 39);
+            this.textBox15.Location = new System.Drawing.Point(767, 40);
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(211, 20);
             this.textBox15.TabIndex = 34;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(752, 202);
+            this.button4.Location = new System.Drawing.Point(906, 203);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 33;
             this.button4.Text = "Delete";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(641, 202);
+            this.button5.Location = new System.Drawing.Point(795, 203);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 32;
             this.button5.Text = "Edit";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(528, 202);
+            this.button6.Location = new System.Drawing.Point(682, 203);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 23);
             this.button6.TabIndex = 31;
             this.button6.Text = "Add";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // textBox16
             // 
-            this.textBox16.Location = new System.Drawing.Point(613, 13);
+            this.textBox16.Location = new System.Drawing.Point(767, 14);
             this.textBox16.Name = "textBox16";
             this.textBox16.Size = new System.Drawing.Size(211, 20);
             this.textBox16.TabIndex = 30;
@@ -1125,7 +805,7 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(525, 68);
+            this.label15.Location = new System.Drawing.Point(679, 69);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(75, 13);
             this.label15.TabIndex = 29;
@@ -1134,20 +814,70 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(525, 42);
+            this.label16.Location = new System.Drawing.Point(679, 43);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(62, 13);
+            this.label16.Size = new System.Drawing.Size(49, 13);
             this.label16.TabIndex = 28;
-            this.label16.Text = "CompanyNr";
+            this.label16.Text = "Surname";
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(525, 16);
+            this.label17.Location = new System.Drawing.Point(679, 17);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(79, 13);
+            this.label17.Size = new System.Drawing.Size(35, 13);
             this.label17.TabIndex = 27;
-            this.label17.Text = "CompanyName";
+            this.label17.Text = "Name";
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.listView7);
+            this.tabPage3.Controls.Add(this.textBox17);
+            this.tabPage3.Controls.Add(this.label18);
+            this.tabPage3.Controls.Add(this.textBox18);
+            this.tabPage3.Controls.Add(this.textBox19);
+            this.tabPage3.Controls.Add(this.textBox20);
+            this.tabPage3.Controls.Add(this.textBox21);
+            this.tabPage3.Controls.Add(this.label19);
+            this.tabPage3.Controls.Add(this.label20);
+            this.tabPage3.Controls.Add(this.label21);
+            this.tabPage3.Controls.Add(this.textBox22);
+            this.tabPage3.Controls.Add(this.button7);
+            this.tabPage3.Controls.Add(this.button8);
+            this.tabPage3.Controls.Add(this.button9);
+            this.tabPage3.Controls.Add(this.textBox23);
+            this.tabPage3.Controls.Add(this.label22);
+            this.tabPage3.Controls.Add(this.label23);
+            this.tabPage3.Controls.Add(this.label24);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(1151, 499);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "People";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // listView7
+            // 
+            this.listView7.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader33,
+            this.columnHeader54,
+            this.columnHeader55,
+            this.columnHeader56,
+            this.columnHeader57,
+            this.columnHeader58,
+            this.columnHeader59,
+            this.columnHeader60});
+            this.listView7.FullRowSelect = true;
+            this.listView7.GridLines = true;
+            this.listView7.Location = new System.Drawing.Point(6, 6);
+            this.listView7.MultiSelect = false;
+            this.listView7.Name = "listView7";
+            this.listView7.Size = new System.Drawing.Size(781, 487);
+            this.listView7.TabIndex = 85;
+            this.listView7.UseCompatibleStateImageBehavior = false;
+            this.listView7.View = System.Windows.Forms.View.Details;
+            this.listView7.SelectedIndexChanged += new System.EventHandler(this.listView7_SelectedIndexChanged);
             // 
             // textBox17
             // 
@@ -1235,6 +965,7 @@
             this.button7.TabIndex = 33;
             this.button7.Text = "Delete";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -1244,6 +975,7 @@
             this.button8.TabIndex = 32;
             this.button8.Text = "Edit";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button9
             // 
@@ -1253,6 +985,7 @@
             this.button9.TabIndex = 31;
             this.button9.Text = "Add";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // textBox23
             // 
@@ -1288,53 +1021,75 @@
             this.label24.TabIndex = 27;
             this.label24.Text = "Name";
             // 
-            // IDPerson
+            // tabPage4
             // 
-            this.IDPerson.HeaderText = "ID";
-            this.IDPerson.Name = "IDPerson";
-            this.IDPerson.ReadOnly = true;
+            this.tabPage4.Controls.Add(this.listView6);
+            this.tabPage4.Controls.Add(this.label25);
+            this.tabPage4.Controls.Add(this.textBox26);
+            this.tabPage4.Controls.Add(this.textBox27);
+            this.tabPage4.Controls.Add(this.textBox28);
+            this.tabPage4.Controls.Add(this.label26);
+            this.tabPage4.Controls.Add(this.label28);
+            this.tabPage4.Controls.Add(this.textBox29);
+            this.tabPage4.Controls.Add(this.button10);
+            this.tabPage4.Controls.Add(this.button11);
+            this.tabPage4.Controls.Add(this.button12);
+            this.tabPage4.Controls.Add(this.textBox30);
+            this.tabPage4.Controls.Add(this.label30);
+            this.tabPage4.Controls.Add(this.label31);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(1151, 499);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Teachers";
+            this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // NamePerson
+            // listView6
             // 
-            this.NamePerson.HeaderText = "Name";
-            this.NamePerson.Name = "NamePerson";
-            this.NamePerson.ReadOnly = true;
+            this.listView6.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader21,
+            this.columnHeader22,
+            this.columnHeader23,
+            this.columnHeader24,
+            this.columnHeader25,
+            this.columnHeader26});
+            this.listView6.FullRowSelect = true;
+            this.listView6.GridLines = true;
+            this.listView6.Location = new System.Drawing.Point(6, 6);
+            this.listView6.MultiSelect = false;
+            this.listView6.Name = "listView6";
+            this.listView6.Size = new System.Drawing.Size(580, 487);
+            this.listView6.TabIndex = 84;
+            this.listView6.UseCompatibleStateImageBehavior = false;
+            this.listView6.View = System.Windows.Forms.View.Details;
             // 
-            // Surname
+            // columnHeader21
             // 
-            this.Surname.HeaderText = "Surname";
-            this.Surname.Name = "Surname";
-            this.Surname.ReadOnly = true;
+            this.columnHeader21.Text = "ID";
+            this.columnHeader21.Width = 86;
             // 
-            // DateOfBirth
+            // columnHeader22
             // 
-            this.DateOfBirth.HeaderText = "DateOfBirth";
-            this.DateOfBirth.Name = "DateOfBirth";
-            this.DateOfBirth.ReadOnly = true;
+            this.columnHeader22.Text = "Name";
+            this.columnHeader22.Width = 111;
             // 
-            // PhoneNumberPerson
+            // columnHeader23
             // 
-            this.PhoneNumberPerson.HeaderText = "PhoneNumber";
-            this.PhoneNumberPerson.Name = "PhoneNumberPerson";
-            this.PhoneNumberPerson.ReadOnly = true;
+            this.columnHeader23.Text = "Surname";
+            this.columnHeader23.Width = 100;
             // 
-            // EmailAddressPerson
+            // columnHeader24
             // 
-            this.EmailAddressPerson.HeaderText = "E-mail Address";
-            this.EmailAddressPerson.Name = "EmailAddressPerson";
-            this.EmailAddressPerson.ReadOnly = true;
+            this.columnHeader24.Text = "Phone Number";
             // 
-            // GroupID
+            // columnHeader25
             // 
-            this.GroupID.HeaderText = "Group";
-            this.GroupID.Name = "GroupID";
-            this.GroupID.ReadOnly = true;
+            this.columnHeader25.Text = "E-mail Address";
             // 
-            // CompanyID
+            // columnHeader26
             // 
-            this.CompanyID.HeaderText = "Company";
-            this.CompanyID.Name = "CompanyID";
-            this.CompanyID.ReadOnly = true;
+            this.columnHeader26.Text = "Fax";
             // 
             // label25
             // 
@@ -1399,6 +1154,7 @@
             this.button10.TabIndex = 50;
             this.button10.Text = "Delete";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click_1);
             // 
             // button11
             // 
@@ -1417,6 +1173,7 @@
             this.button12.TabIndex = 48;
             this.button12.Text = "Add";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // textBox30
             // 
@@ -1443,104 +1200,61 @@
             this.label31.TabIndex = 44;
             this.label31.Text = "Name";
             // 
-            // IDTeacher
+            // tabPage5
             // 
-            this.IDTeacher.HeaderText = "ID";
-            this.IDTeacher.Name = "IDTeacher";
-            this.IDTeacher.ReadOnly = true;
+            this.tabPage5.Controls.Add(this.listView4);
+            this.tabPage5.Controls.Add(this.textBox24);
+            this.tabPage5.Controls.Add(this.label27);
+            this.tabPage5.Controls.Add(this.textBox32);
+            this.tabPage5.Controls.Add(this.button13);
+            this.tabPage5.Controls.Add(this.button14);
+            this.tabPage5.Controls.Add(this.button15);
+            this.tabPage5.Controls.Add(this.textBox33);
+            this.tabPage5.Controls.Add(this.label33);
+            this.tabPage5.Controls.Add(this.label34);
+            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(1151, 499);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Lessons";
+            this.tabPage5.UseVisualStyleBackColor = true;
             // 
-            // NameTeacher
+            // listView4
             // 
-            this.NameTeacher.HeaderText = "Name";
-            this.NameTeacher.Name = "NameTeacher";
-            this.NameTeacher.ReadOnly = true;
+            this.listView4.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader18,
+            this.columnHeader19,
+            this.columnHeader20});
+            this.listView4.FullRowSelect = true;
+            this.listView4.GridLines = true;
+            this.listView4.Location = new System.Drawing.Point(6, 6);
+            this.listView4.MultiSelect = false;
+            this.listView4.Name = "listView4";
+            this.listView4.Size = new System.Drawing.Size(391, 487);
+            this.listView4.TabIndex = 83;
+            this.listView4.UseCompatibleStateImageBehavior = false;
+            this.listView4.View = System.Windows.Forms.View.Details;
+            this.listView4.SelectedIndexChanged += new System.EventHandler(this.listView4_SelectedIndexChanged);
             // 
-            // SurnameTeacher
+            // columnHeader18
             // 
-            this.SurnameTeacher.HeaderText = "Surname";
-            this.SurnameTeacher.Name = "SurnameTeacher";
-            this.SurnameTeacher.ReadOnly = true;
+            this.columnHeader18.Text = "ID";
+            this.columnHeader18.Width = 86;
             // 
-            // PhoneNumberTeacher
+            // columnHeader19
             // 
-            this.PhoneNumberTeacher.HeaderText = "PhoneNumber";
-            this.PhoneNumberTeacher.Name = "PhoneNumberTeacher";
-            this.PhoneNumberTeacher.ReadOnly = true;
+            this.columnHeader19.Text = "Name";
+            this.columnHeader19.Width = 111;
             // 
-            // EmailAddressTeacher
+            // columnHeader20
             // 
-            this.EmailAddressTeacher.HeaderText = "E-mail Address";
-            this.EmailAddressTeacher.Name = "EmailAddressTeacher";
-            this.EmailAddressTeacher.ReadOnly = true;
-            // 
-            // FAXTeacher
-            // 
-            this.FAXTeacher.HeaderText = "FAX";
-            this.FAXTeacher.Name = "FAXTeacher";
-            this.FAXTeacher.ReadOnly = true;
-            // 
-            // textBox32
-            // 
-            this.textBox32.Location = new System.Drawing.Point(405, 69);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.Size = new System.Drawing.Size(211, 20);
-            this.textBox32.TabIndex = 66;
-            // 
-            // button13
-            // 
-            this.button13.Location = new System.Drawing.Point(541, 102);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(75, 23);
-            this.button13.TabIndex = 65;
-            this.button13.Text = "Delete";
-            this.button13.UseVisualStyleBackColor = true;
-            // 
-            // button14
-            // 
-            this.button14.Location = new System.Drawing.Point(430, 102);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(75, 23);
-            this.button14.TabIndex = 64;
-            this.button14.Text = "Edit";
-            this.button14.UseVisualStyleBackColor = true;
-            // 
-            // button15
-            // 
-            this.button15.Location = new System.Drawing.Point(317, 102);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(75, 23);
-            this.button15.TabIndex = 63;
-            this.button15.Text = "Add";
-            this.button15.UseVisualStyleBackColor = true;
-            // 
-            // textBox33
-            // 
-            this.textBox33.Location = new System.Drawing.Point(405, 43);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.Size = new System.Drawing.Size(211, 20);
-            this.textBox33.TabIndex = 62;
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(317, 72);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(40, 13);
-            this.label33.TabIndex = 61;
-            this.label33.Text = "Course";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(317, 46);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(35, 13);
-            this.label34.TabIndex = 60;
-            this.label34.Text = "Name";
+            this.columnHeader20.Text = "CourseID";
+            this.columnHeader20.Width = 100;
             // 
             // textBox24
             // 
-            this.textBox24.Location = new System.Drawing.Point(405, 17);
+            this.textBox24.Location = new System.Drawing.Point(526, 35);
             this.textBox24.Name = "textBox24";
             this.textBox24.Size = new System.Drawing.Size(211, 20);
             this.textBox24.TabIndex = 68;
@@ -1548,15 +1262,149 @@
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(317, 20);
+            this.label27.Location = new System.Drawing.Point(438, 38);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(18, 13);
             this.label27.TabIndex = 67;
             this.label27.Text = "ID";
             // 
+            // textBox32
+            // 
+            this.textBox32.Location = new System.Drawing.Point(526, 87);
+            this.textBox32.Name = "textBox32";
+            this.textBox32.Size = new System.Drawing.Size(211, 20);
+            this.textBox32.TabIndex = 66;
+            // 
+            // button13
+            // 
+            this.button13.Location = new System.Drawing.Point(662, 120);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(75, 23);
+            this.button13.TabIndex = 65;
+            this.button13.Text = "Delete";
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
+            // button14
+            // 
+            this.button14.Location = new System.Drawing.Point(551, 120);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(75, 23);
+            this.button14.TabIndex = 64;
+            this.button14.Text = "Edit";
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
+            // 
+            // button15
+            // 
+            this.button15.Location = new System.Drawing.Point(438, 120);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(75, 23);
+            this.button15.TabIndex = 63;
+            this.button15.Text = "Add";
+            this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
+            // 
+            // textBox33
+            // 
+            this.textBox33.Location = new System.Drawing.Point(526, 61);
+            this.textBox33.Name = "textBox33";
+            this.textBox33.Size = new System.Drawing.Size(211, 20);
+            this.textBox33.TabIndex = 62;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(438, 90);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(60, 13);
+            this.label33.TabIndex = 61;
+            this.label33.Text = "Course (ID)";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(438, 64);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(35, 13);
+            this.label34.TabIndex = 60;
+            this.label34.Text = "Name";
+            // 
+            // tabPage6
+            // 
+            this.tabPage6.Controls.Add(this.listView3);
+            this.tabPage6.Controls.Add(this.button16);
+            this.tabPage6.Controls.Add(this.button17);
+            this.tabPage6.Controls.Add(this.button18);
+            this.tabPage6.Controls.Add(this.textBox25);
+            this.tabPage6.Controls.Add(this.label29);
+            this.tabPage6.Controls.Add(this.textBox31);
+            this.tabPage6.Controls.Add(this.label32);
+            this.tabPage6.Location = new System.Drawing.Point(4, 22);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(1151, 499);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "Categories";
+            this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // listView3
+            // 
+            this.listView3.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader9,
+            this.columnHeader10});
+            this.listView3.FullRowSelect = true;
+            this.listView3.Location = new System.Drawing.Point(6, 6);
+            this.listView3.MultiSelect = false;
+            this.listView3.Name = "listView3";
+            this.listView3.Size = new System.Drawing.Size(516, 487);
+            this.listView3.TabIndex = 77;
+            this.listView3.UseCompatibleStateImageBehavior = false;
+            this.listView3.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader9
+            // 
+            this.columnHeader9.Text = "ID";
+            this.columnHeader9.Width = 79;
+            // 
+            // columnHeader10
+            // 
+            this.columnHeader10.Text = "Name";
+            this.columnHeader10.Width = 635;
+            // 
+            // button16
+            // 
+            this.button16.Location = new System.Drawing.Point(785, 75);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(75, 23);
+            this.button16.TabIndex = 75;
+            this.button16.Text = "Delete";
+            this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
+            // 
+            // button17
+            // 
+            this.button17.Location = new System.Drawing.Point(674, 75);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(75, 23);
+            this.button17.TabIndex = 74;
+            this.button17.Text = "Edit";
+            this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
+            // 
+            // button18
+            // 
+            this.button18.Location = new System.Drawing.Point(561, 75);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(75, 23);
+            this.button18.TabIndex = 73;
+            this.button18.Text = "Add";
+            this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
+            // 
             // textBox25
             // 
-            this.textBox25.Location = new System.Drawing.Point(355, 12);
+            this.textBox25.Location = new System.Drawing.Point(646, 21);
             this.textBox25.Name = "textBox25";
             this.textBox25.Size = new System.Drawing.Size(211, 20);
             this.textBox25.TabIndex = 72;
@@ -1564,7 +1412,7 @@
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(267, 15);
+            this.label29.Location = new System.Drawing.Point(558, 24);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(18, 13);
             this.label29.TabIndex = 71;
@@ -1572,7 +1420,7 @@
             // 
             // textBox31
             // 
-            this.textBox31.Location = new System.Drawing.Point(355, 38);
+            this.textBox31.Location = new System.Drawing.Point(646, 47);
             this.textBox31.Name = "textBox31";
             this.textBox31.Size = new System.Drawing.Size(211, 20);
             this.textBox31.TabIndex = 70;
@@ -1580,38 +1428,110 @@
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(267, 41);
+            this.label32.Location = new System.Drawing.Point(558, 50);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(35, 13);
             this.label32.TabIndex = 69;
             this.label32.Text = "Name";
             // 
-            // button16
+            // tabPage7
             // 
-            this.button16.Location = new System.Drawing.Point(494, 66);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(75, 23);
-            this.button16.TabIndex = 75;
-            this.button16.Text = "Delete";
-            this.button16.UseVisualStyleBackColor = true;
+            this.tabPage7.Controls.Add(this.listView5);
+            this.tabPage7.Controls.Add(this.textBox37);
+            this.tabPage7.Controls.Add(this.textBox38);
+            this.tabPage7.Controls.Add(this.label38);
+            this.tabPage7.Controls.Add(this.label39);
+            this.tabPage7.Controls.Add(this.textBox34);
+            this.tabPage7.Controls.Add(this.label35);
+            this.tabPage7.Controls.Add(this.textBox35);
+            this.tabPage7.Controls.Add(this.button19);
+            this.tabPage7.Controls.Add(this.button20);
+            this.tabPage7.Controls.Add(this.button21);
+            this.tabPage7.Controls.Add(this.textBox36);
+            this.tabPage7.Controls.Add(this.label36);
+            this.tabPage7.Controls.Add(this.label37);
+            this.tabPage7.Location = new System.Drawing.Point(4, 22);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage7.Size = new System.Drawing.Size(1151, 499);
+            this.tabPage7.TabIndex = 6;
+            this.tabPage7.Text = "Courses";
+            this.tabPage7.UseVisualStyleBackColor = true;
             // 
-            // button17
+            // listView5
             // 
-            this.button17.Location = new System.Drawing.Point(383, 66);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(75, 23);
-            this.button17.TabIndex = 74;
-            this.button17.Text = "Edit";
-            this.button17.UseVisualStyleBackColor = true;
+            this.listView5.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader13,
+            this.columnHeader14,
+            this.columnHeader15,
+            this.columnHeader16,
+            this.columnHeader17});
+            this.listView5.FullRowSelect = true;
+            this.listView5.GridLines = true;
+            this.listView5.Location = new System.Drawing.Point(6, 15);
+            this.listView5.MultiSelect = false;
+            this.listView5.Name = "listView5";
+            this.listView5.Size = new System.Drawing.Size(580, 478);
+            this.listView5.TabIndex = 82;
+            this.listView5.UseCompatibleStateImageBehavior = false;
+            this.listView5.View = System.Windows.Forms.View.Details;
             // 
-            // button18
+            // columnHeader13
             // 
-            this.button18.Location = new System.Drawing.Point(270, 66);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(75, 23);
-            this.button18.TabIndex = 73;
-            this.button18.Text = "Add";
-            this.button18.UseVisualStyleBackColor = true;
+            this.columnHeader13.Text = "ID";
+            this.columnHeader13.Width = 43;
+            // 
+            // columnHeader14
+            // 
+            this.columnHeader14.Text = "Name";
+            this.columnHeader14.Width = 111;
+            // 
+            // columnHeader15
+            // 
+            this.columnHeader15.Text = "Duration";
+            this.columnHeader15.Width = 100;
+            // 
+            // columnHeader16
+            // 
+            this.columnHeader16.Text = "Cost";
+            this.columnHeader16.Width = 138;
+            // 
+            // columnHeader17
+            // 
+            this.columnHeader17.Text = "Category";
+            this.columnHeader17.Width = 118;
+            // 
+            // textBox37
+            // 
+            this.textBox37.Location = new System.Drawing.Point(704, 116);
+            this.textBox37.Name = "textBox37";
+            this.textBox37.Size = new System.Drawing.Size(211, 20);
+            this.textBox37.TabIndex = 81;
+            // 
+            // textBox38
+            // 
+            this.textBox38.Location = new System.Drawing.Point(704, 90);
+            this.textBox38.Name = "textBox38";
+            this.textBox38.Size = new System.Drawing.Size(211, 20);
+            this.textBox38.TabIndex = 80;
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Location = new System.Drawing.Point(616, 119);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(69, 13);
+            this.label38.TabIndex = 79;
+            this.label38.Text = "Category (ID)";
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Location = new System.Drawing.Point(616, 93);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(28, 13);
+            this.label39.TabIndex = 78;
+            this.label39.Text = "Cost";
             // 
             // textBox34
             // 
@@ -1644,6 +1564,7 @@
             this.button19.TabIndex = 74;
             this.button19.Text = "Delete";
             this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
             // button20
             // 
@@ -1653,6 +1574,7 @@
             this.button20.TabIndex = 73;
             this.button20.Text = "Edit";
             this.button20.UseVisualStyleBackColor = true;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
             // button21
             // 
@@ -1662,6 +1584,7 @@
             this.button21.TabIndex = 72;
             this.button21.Text = "Add";
             this.button21.UseVisualStyleBackColor = true;
+            this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
             // textBox36
             // 
@@ -1688,84 +1611,201 @@
             this.label37.TabIndex = 69;
             this.label37.Text = "Name";
             // 
-            // textBox37
+            // tabPage8
             // 
-            this.textBox37.Location = new System.Drawing.Point(704, 116);
-            this.textBox37.Name = "textBox37";
-            this.textBox37.Size = new System.Drawing.Size(211, 20);
-            this.textBox37.TabIndex = 81;
+            this.tabPage8.Controls.Add(this.listView1);
+            this.tabPage8.Controls.Add(this.button22);
+            this.tabPage8.Location = new System.Drawing.Point(4, 22);
+            this.tabPage8.Name = "tabPage8";
+            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage8.Size = new System.Drawing.Size(1151, 499);
+            this.tabPage8.TabIndex = 7;
+            this.tabPage8.Text = "Ratings";
+            this.tabPage8.UseVisualStyleBackColor = true;
             // 
-            // textBox38
+            // listView1
             // 
-            this.textBox38.Location = new System.Drawing.Point(704, 90);
-            this.textBox38.Name = "textBox38";
-            this.textBox38.Size = new System.Drawing.Size(211, 20);
-            this.textBox38.TabIndex = 80;
+            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader1,
+            this.columnHeader2,
+            this.columnHeader3,
+            this.columnHeader4,
+            this.columnHeader5});
+            this.listView1.FullRowSelect = true;
+            this.listView1.GridLines = true;
+            this.listView1.Location = new System.Drawing.Point(6, 3);
+            this.listView1.MultiSelect = false;
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(609, 490);
+            this.listView1.TabIndex = 83;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listView1.View = System.Windows.Forms.View.Details;
             // 
-            // label38
+            // columnHeader1
             // 
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(616, 119);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(49, 13);
-            this.label38.TabIndex = 79;
-            this.label38.Text = "Category";
+            this.columnHeader1.Text = "ID";
+            this.columnHeader1.Width = 86;
             // 
-            // label39
+            // columnHeader2
             // 
-            this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(616, 93);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(28, 13);
-            this.label39.TabIndex = 78;
-            this.label39.Text = "Cost";
+            this.columnHeader2.Text = "Rating";
+            this.columnHeader2.Width = 59;
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "Comment";
+            this.columnHeader3.Width = 68;
+            // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "CourseID";
+            this.columnHeader4.Width = 79;
+            // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "AccountID";
+            this.columnHeader5.Width = 141;
             // 
             // button22
             // 
-            this.button22.Location = new System.Drawing.Point(717, 6);
+            this.button22.Location = new System.Drawing.Point(648, 40);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(75, 23);
             this.button22.TabIndex = 1;
             this.button22.Text = "Delete";
             this.button22.UseVisualStyleBackColor = true;
+            this.button22.Click += new System.EventHandler(this.button22_Click);
+            // 
+            // tabPage9
+            // 
+            this.tabPage9.Controls.Add(this.listView2);
+            this.tabPage9.Location = new System.Drawing.Point(4, 22);
+            this.tabPage9.Name = "tabPage9";
+            this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage9.Size = new System.Drawing.Size(1151, 499);
+            this.tabPage9.TabIndex = 8;
+            this.tabPage9.Text = "Orders";
+            this.tabPage9.UseVisualStyleBackColor = true;
+            // 
+            // listView2
+            // 
+            this.listView2.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader6,
+            this.columnHeader7,
+            this.columnHeader8,
+            this.columnHeader11,
+            this.columnHeader12});
+            this.listView2.FullRowSelect = true;
+            this.listView2.GridLines = true;
+            this.listView2.Location = new System.Drawing.Point(6, 6);
+            this.listView2.MultiSelect = false;
+            this.listView2.Name = "listView2";
+            this.listView2.Size = new System.Drawing.Size(617, 487);
+            this.listView2.TabIndex = 84;
+            this.listView2.UseCompatibleStateImageBehavior = false;
+            this.listView2.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader6
+            // 
+            this.columnHeader6.Text = "ID";
+            this.columnHeader6.Width = 86;
+            // 
+            // columnHeader7
+            // 
+            this.columnHeader7.Text = "Cost";
+            this.columnHeader7.Width = 59;
+            // 
+            // columnHeader8
+            // 
+            this.columnHeader8.Text = "Amount Of People";
+            this.columnHeader8.Width = 68;
+            // 
+            // columnHeader11
+            // 
+            this.columnHeader11.Text = "PersonID";
+            this.columnHeader11.Width = 79;
+            // 
+            // columnHeader12
+            // 
+            this.columnHeader12.Text = "CompanyID";
+            this.columnHeader12.Width = 141;
+            // 
+            // button23
+            // 
+            this.button23.Location = new System.Drawing.Point(1096, 5);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(75, 23);
+            this.button23.TabIndex = 85;
+            this.button23.Text = "Refresh";
+            this.button23.UseVisualStyleBackColor = true;
+            this.button23.Click += new System.EventHandler(this.button23_Click);
+            // 
+            // columnHeader33
+            // 
+            this.columnHeader33.Text = "ID";
+            // 
+            // columnHeader54
+            // 
+            this.columnHeader54.Text = "Name";
+            // 
+            // columnHeader55
+            // 
+            this.columnHeader55.Text = "Surname";
+            // 
+            // columnHeader56
+            // 
+            this.columnHeader56.Text = "Date Of Birth";
+            this.columnHeader56.Width = 91;
+            // 
+            // columnHeader57
+            // 
+            this.columnHeader57.Text = "Phone Number";
+            this.columnHeader57.Width = 91;
+            // 
+            // columnHeader58
+            // 
+            this.columnHeader58.Text = "Email Address";
+            this.columnHeader58.Width = 93;
+            // 
+            // columnHeader59
+            // 
+            this.columnHeader59.Text = "Group (ID)";
+            this.columnHeader59.Width = 96;
+            // 
+            // columnHeader60
+            // 
+            this.columnHeader60.Text = "Company (ID)";
+            this.columnHeader60.Width = 99;
             // 
             // MainFormAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1183, 549);
+            this.Controls.Add(this.button23);
             this.Controls.Add(this.tabControl);
             this.Name = "MainFormAdmin";
             this.Text = "Courses Co";
+            this.Load += new System.EventHandler(this.MainFormAdmin_Load);
             this.tabControl.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
-            this.tabPage4.ResumeLayout(false);
-            this.tabPage4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
-            this.tabPage5.ResumeLayout(false);
-            this.tabPage5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
-            this.tabPage6.ResumeLayout(false);
-            this.tabPage6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).EndInit();
-            this.tabPage7.ResumeLayout(false);
-            this.tabPage7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).EndInit();
-            this.tabPage8.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView8)).EndInit();
-            this.tabPage9.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView9)).EndInit();
             this.tabPage10.ResumeLayout(false);
             this.tabPage10.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView10)).EndInit();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
+            this.tabPage4.ResumeLayout(false);
+            this.tabPage4.PerformLayout();
+            this.tabPage5.ResumeLayout(false);
+            this.tabPage5.PerformLayout();
+            this.tabPage6.ResumeLayout(false);
+            this.tabPage6.PerformLayout();
+            this.tabPage7.ResumeLayout(false);
+            this.tabPage7.PerformLayout();
+            this.tabPage8.ResumeLayout(false);
+            this.tabPage9.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1789,41 +1829,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Username;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Password;
-        private System.Windows.Forms.DataGridViewTextBoxColumn IsAdmin;
-        private System.Windows.Forms.DataGridView dataGridView2;
-        private System.Windows.Forms.DataGridView dataGridView3;
-        private System.Windows.Forms.DataGridView dataGridView4;
-        private System.Windows.Forms.DataGridView dataGridView5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn IDLesson;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NameLesson;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CourseIDLesson;
-        private System.Windows.Forms.DataGridView dataGridView7;
-        private System.Windows.Forms.DataGridView dataGridView6;
-        private System.Windows.Forms.DataGridView dataGridView8;
-        private System.Windows.Forms.DataGridViewTextBoxColumn IDRating;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Rating;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Comment;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CourseIDRating;
-        private System.Windows.Forms.DataGridViewTextBoxColumn AccountID;
         private System.Windows.Forms.TabPage tabPage9;
-        private System.Windows.Forms.DataGridView dataGridView9;
-        private System.Windows.Forms.DataGridViewTextBoxColumn OrderID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Cost;
-        private System.Windows.Forms.DataGridViewTextBoxColumn AmuntOfPeople;
-        private System.Windows.Forms.DataGridViewTextBoxColumn PersonID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CompanyIDOrder;
-        private System.Windows.Forms.DataGridViewTextBoxColumn IDCompany;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NameCompany;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CompanyNr;
-        private System.Windows.Forms.DataGridViewTextBoxColumn PhoneNumber;
-        private System.Windows.Forms.DataGridViewTextBoxColumn EmailAddress;
-        private System.Windows.Forms.DataGridViewTextBoxColumn FAX;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Address1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Address2;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.Label label10;
@@ -1843,14 +1849,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TabPage tabPage10;
-        private System.Windows.Forms.DataGridView dataGridView10;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CategoryID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CategoryName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CourseID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NameCourse;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Duration;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CourseCost;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CategoryIDCourse;
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox textBox11;
@@ -1885,14 +1883,6 @@
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.DataGridViewTextBoxColumn IDPerson;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NamePerson;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Surname;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DateOfBirth;
-        private System.Windows.Forms.DataGridViewTextBoxColumn PhoneNumberPerson;
-        private System.Windows.Forms.DataGridViewTextBoxColumn EmailAddressPerson;
-        private System.Windows.Forms.DataGridViewTextBoxColumn GroupID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CompanyID;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.TextBox textBox26;
         private System.Windows.Forms.TextBox textBox27;
@@ -1906,12 +1896,6 @@
         private System.Windows.Forms.TextBox textBox30;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.DataGridViewTextBoxColumn IDTeacher;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NameTeacher;
-        private System.Windows.Forms.DataGridViewTextBoxColumn SurnameTeacher;
-        private System.Windows.Forms.DataGridViewTextBoxColumn PhoneNumberTeacher;
-        private System.Windows.Forms.DataGridViewTextBoxColumn EmailAddressTeacher;
-        private System.Windows.Forms.DataGridViewTextBoxColumn FAXTeacher;
         private System.Windows.Forms.TextBox textBox24;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.TextBox textBox32;
@@ -1942,5 +1926,68 @@
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Button button22;
+        private System.Windows.Forms.ListView listView3;
+        private System.Windows.Forms.ColumnHeader columnHeader9;
+        private System.Windows.Forms.ColumnHeader columnHeader10;
+        private System.Windows.Forms.ListView listView5;
+        private System.Windows.Forms.ColumnHeader columnHeader13;
+        private System.Windows.Forms.ColumnHeader columnHeader14;
+        private System.Windows.Forms.ColumnHeader columnHeader15;
+        private System.Windows.Forms.ColumnHeader columnHeader16;
+        private System.Windows.Forms.ColumnHeader columnHeader17;
+        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ColumnHeader columnHeader1;
+        private System.Windows.Forms.ColumnHeader columnHeader2;
+        private System.Windows.Forms.ColumnHeader columnHeader3;
+        private System.Windows.Forms.ColumnHeader columnHeader4;
+        private System.Windows.Forms.ColumnHeader columnHeader5;
+        private System.Windows.Forms.ListView listView4;
+        private System.Windows.Forms.ColumnHeader columnHeader18;
+        private System.Windows.Forms.ColumnHeader columnHeader19;
+        private System.Windows.Forms.ColumnHeader columnHeader20;
+        private System.Windows.Forms.ListView listView2;
+        private System.Windows.Forms.ColumnHeader columnHeader6;
+        private System.Windows.Forms.ColumnHeader columnHeader7;
+        private System.Windows.Forms.ColumnHeader columnHeader8;
+        private System.Windows.Forms.ColumnHeader columnHeader11;
+        private System.Windows.Forms.ColumnHeader columnHeader12;
+        private System.Windows.Forms.ListView listView6;
+        private System.Windows.Forms.ColumnHeader columnHeader21;
+        private System.Windows.Forms.ColumnHeader columnHeader22;
+        private System.Windows.Forms.ColumnHeader columnHeader23;
+        private System.Windows.Forms.ColumnHeader columnHeader24;
+        private System.Windows.Forms.ColumnHeader columnHeader25;
+        private System.Windows.Forms.ColumnHeader columnHeader26;
+        private System.Windows.Forms.ListView listView7;
+        private System.Windows.Forms.ListView listView8;
+        private System.Windows.Forms.ColumnHeader columnHeader34;
+        private System.Windows.Forms.ColumnHeader columnHeader35;
+        private System.Windows.Forms.ColumnHeader columnHeader36;
+        private System.Windows.Forms.ColumnHeader columnHeader37;
+        private System.Windows.Forms.ColumnHeader columnHeader38;
+        private System.Windows.Forms.ColumnHeader columnHeader39;
+        private System.Windows.Forms.ListView listView9;
+        private System.Windows.Forms.ColumnHeader columnHeader41;
+        private System.Windows.Forms.ColumnHeader columnHeader42;
+        private System.Windows.Forms.ColumnHeader columnHeader43;
+        private System.Windows.Forms.ColumnHeader columnHeader44;
+        private System.Windows.Forms.ColumnHeader columnHeader45;
+        private System.Windows.Forms.ColumnHeader columnHeader46;
+        private System.Windows.Forms.ColumnHeader columnHeader47;
+        private System.Windows.Forms.ListView listView10;
+        private System.Windows.Forms.ColumnHeader columnHeader48;
+        private System.Windows.Forms.ColumnHeader columnHeader49;
+        private System.Windows.Forms.ColumnHeader columnHeader50;
+        private System.Windows.Forms.ColumnHeader columnHeader51;
+        private System.Windows.Forms.ColumnHeader columnHeader40;
+        private System.Windows.Forms.Button button23;
+        private System.Windows.Forms.ColumnHeader columnHeader33;
+        private System.Windows.Forms.ColumnHeader columnHeader54;
+        private System.Windows.Forms.ColumnHeader columnHeader55;
+        private System.Windows.Forms.ColumnHeader columnHeader56;
+        private System.Windows.Forms.ColumnHeader columnHeader57;
+        private System.Windows.Forms.ColumnHeader columnHeader58;
+        private System.Windows.Forms.ColumnHeader columnHeader59;
+        private System.Windows.Forms.ColumnHeader columnHeader60;
     }
 }

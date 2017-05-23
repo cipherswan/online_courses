@@ -14,35 +14,33 @@ namespace PraktikaDuomenuBaze
 {
     public partial class LogInForm : Form
     {
-        DatabaseAccess Da;
+        private MySqlConnection connection;
+        private string server;
+        private string database;
+        private string uid;
+        private string password;
+
+
         public LogInForm()
         {
             InitializeComponent();
-            Da = new DatabaseAccess();
-            Da.LinResponder = (Username, Password, IsAdmin) =>
-            {
-                if(IsAdmin == true)
-                {
-                    Application.ExitThread();
-                    Thread t = new Thread(() => Application.Run(new MainFormAdmin()));
-                    t.Start();
-                    this.Close();
-                }
-            };
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (UnTb.Text != "" && PwTb.Text != "")
-                Da.LogIn(UnTb.Text, PwTb.Text);
-            else
-                MessageBox.Show("Username or password text boxes empty.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            Login_account();
+
+          //  Get_all_course_categorys();
+            
+            MainFormAdmin MainForm = new MainFormAdmin();
+            MainForm.ShowDialog();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             Application.ExitThread();
-            Thread t = new Thread(() => Application.Run(new RegistrationForm()));
+            Thread t = new Thread(() =>Application.Run(new RegistrationForm()));
             t.Start();
             this.Close();
         }
@@ -51,8 +49,129 @@ namespace PraktikaDuomenuBaze
         {
             this.Dispose();
         }
+
+
+     public void Login_account()
+   {
+       try
+       {
+           
+     
+
+           server = "25.109.243.244";
+           database = "praktikadb";
+           uid = "root";
+           password = "canada1";
+           string connectionString;
+
+           connectionString = "SERVER=" + server + ";" + "DATABASE=" +
+           database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
+
+           connection = new MySqlConnection(connectionString);
+
+          // MessageBox.Show("Hello from login acc");
+
+           
+
+    
+           
+       }
+       catch (Exception ex)
+       {
+           MessageBox.Show(ex.Message);
+       }
+
+   }
+
+     private bool OpenConnection()
+     {
+         try
+         {
+             connection.Open();
+             return true;
+         }
+         catch (MySqlException ex)
+         {
+             //When handling errors, you can your application's response based 
+             //on the error number.
+             //The two most common error numbers when connecting are as follows:
+             //0: Cannot connect to server.
+             //1045: Invalid user name and/or password.
+             switch (ex.Number)
+             {
+                 case 0:
+                     MessageBox.Show("Cannot connect to server.  Contact administrator");
+                     break;
+
+                 case 1045:
+                     MessageBox.Show("Invalid username/password, please try again");
+                     break;
+             }
+             return false;
+         }
+     }
+
+
+     private bool CloseConnection()
+     {
+         try
+         {
+             connection.Close();
+             return true;
+         }
+         catch (MySqlException ex)
+         {
+             MessageBox.Show(ex.Message);
+             return false;
+         }
+     }
+
+   
+ 
+
+      public void Get_all_course_categorys()
+     {
+         string query = "SELECT * FROM coursecategory";
+ 
+
+         if (this.OpenConnection() == true)
+         {
+             //Create Command
+             MySqlCommand cmd = new MySqlCommand(query, connection);
+             //Create a data reader and Execute the command
+             MySqlDataReader dataReader = cmd.ExecuteReader();
+
+
+
+
+             //Read the data and store them in the list
+             while (dataReader.Read())
+             {
+                 MessageBox.Show(dataReader["idCategory"] + " " + dataReader["name"] + " ");
+          
+                
+             }
+
+             //close Data Reader
+             dataReader.Close();
+
+             //close Connection
+             this.CloseConnection();
+
+             //return list to be displayed
+            
+         }
+         else
+         {
+             MessageBox.Show("Error");
+         }
+     }
+
+
+
+
     }
 
 
-
+    
 }
