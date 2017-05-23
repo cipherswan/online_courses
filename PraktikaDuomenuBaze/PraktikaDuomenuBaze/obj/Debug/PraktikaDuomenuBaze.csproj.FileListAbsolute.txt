@@ -1,0 +1,40 @@
+c:\users\ignelis\documents\visual studio 2013\Projects\PraktikaDuomenuBaze\PraktikaDuomenuBaze\bin\Debug\PraktikaDuomenuBaze.exe.config
+C:\Users\Maksim Archipov\Desktop\C# projects\PraktikaDuomenuBaze\PraktikaDuomenuBaze\PraktikaDuomenuBaze\bin\Debug\PraktikaDuomenuBaze.exe.config
+C:\Users\Maksim Archipov\Desktop\C# projects\PraktikaDuomenuBaze\PraktikaDuomenuBaze\PraktikaDuomenuBaze\bin\Debug\PraktikaDuomenuBaze.exe
+C:\Users\Maksim Archipov\Desktop\C# projects\PraktikaDuomenuBaze\PraktikaDuomenuBaze\PraktikaDuomenuBaze\bin\Debug\PraktikaDuomenuBaze.pdb
+C:\Users\Maksim Archipov\Desktop\C# projects\PraktikaDuomenuBaze\PraktikaDuomenuBaze\PraktikaDuomenuBaze\obj\Debug\PraktikaDuomenuBaze.csprojResolveAssemblyReference.cache
+C:\Users\Maksim Archipov\Desktop\C# projects\PraktikaDuomenuBaze\PraktikaDuomenuBaze\PraktikaDuomenuBaze\obj\Debug\PraktikaDuomenuBaze.Properties.Resources.resources
+C:\Users\Maksim Archipov\Desktop\C# projects\PraktikaDuomenuBaze\PraktikaDuomenuBaze\PraktikaDuomenuBaze\obj\Debug\PraktikaDuomenuBaze.csproj.GenerateResource.Cache
+C:\Users\Maksim Archipov\Desktop\C# projects\PraktikaDuomenuBaze\PraktikaDuomenuBaze\PraktikaDuomenuBaze\obj\Debug\PraktikaDuomenuBaze.exe
+C:\Users\Maksim Archipov\Desktop\C# projects\PraktikaDuomenuBaze\PraktikaDuomenuBaze\PraktikaDuomenuBaze\obj\Debug\PraktikaDuomenuBaze.pdb
+C:\Users\Maksim Archipov\Desktop\C# projects\PraktikaDuomenuBaze\PraktikaDuomenuBaze\PraktikaDuomenuBaze\obj\Debug\PraktikaDuomenuBaze.LogInForm.resources
+C:\Users\Maksim Archipov\Desktop\C# projects\PraktikaDuomenuBaze\PraktikaDuomenuBaze\PraktikaDuomenuBaze\obj\Debug\PraktikaDuomenuBaze.RegistrationForm.resources
+C:\Users\Maksim Archipov\Desktop\C# projects\PraktikaDuomenuBaze\PraktikaDuomenuBaze\PraktikaDuomenuBaze\obj\Debug\PraktikaDuomenuBaze.RegistrationForm2.resources
+C:\Users\Maksim Archipov\Desktop\C# projects\PraktikaDuomenuBaze\PraktikaDuomenuBaze\PraktikaDuomenuBaze\bin\Debug\MySql.Data.dll
+C:\Users\Maksim Archipov\Desktop\C# projects\PraktikaDuomenuBaze\PraktikaDuomenuBaze\PraktikaDuomenuBaze\obj\Debug\PraktikaDuomenuBaze.MainFormAdmin.resources
+C:\Users\Mindaugas\Desktop\PraktikaDuomenuBaze\PraktikaDuomenuBaze\PraktikaDuomenuBaze\bin\Debug\PraktikaDuomenuBaze.exe.config
+C:\Users\Mindaugas\Desktop\PraktikaDuomenuBaze\PraktikaDuomenuBaze\PraktikaDuomenuBaze\obj\Debug\PraktikaDuomenuBaze.exe
+C:\Users\Mindaugas\Desktop\PraktikaDuomenuBaze\PraktikaDuomenuBaze\PraktikaDuomenuBaze\obj\Debug\PraktikaDuomenuBaze.pdb
+C:\Users\Mindaugas\Desktop\PraktikaDuomenuBaze\PraktikaDuomenuBaze\PraktikaDuomenuBaze\obj\Debug\PraktikaDuomenuBaze.csprojResolveAssemblyReference.cache
+C:\Users\Mindaugas\Desktop\PraktikaDuomenuBaze\PraktikaDuomenuBaze\PraktikaDuomenuBaze\obj\Debug\PraktikaDuomenuBaze.LogInForm.resources
+C:\Users\Mindaugas\Desktop\PraktikaDuomenuBaze\PraktikaDuomenuBaze\PraktikaDuomenuBaze\obj\Debug\PraktikaDuomenuBaze.MainFormAdmin.resources
+C:\Users\Mindaugas\Desktop\PraktikaDuomenuBaze\PraktikaDuomenuBaze\PraktikaDuomenuBaze\obj\Debug\PraktikaDuomenuBaze.Properties.Resources.resources
+C:\Users\Mindaugas\Desktop\PraktikaDuomenuBaze\PraktikaDuomenuBaze\PraktikaDuomenuBaze\obj\Debug\PraktikaDuomenuBaze.RegistrationForm.resources
+C:\Users\Mindaugas\Desktop\PraktikaDuomenuBaze\PraktikaDuomenuBaze\PraktikaDuomenuBaze\obj\Debug\PraktikaDuomenuBaze.RegistrationForm2.resources
+C:\Users\Mindaugas\Desktop\PraktikaDuomenuBaze\PraktikaDuomenuBaze\PraktikaDuomenuBaze\obj\Debug\PraktikaDuomenuBaze.csproj.GenerateResource.Cache
+C:\Users\Mindaugas\Desktop\PraktikaDuomenuBaze\PraktikaDuomenuBaze\PraktikaDuomenuBaze\bin\Debug\PraktikaDuomenuBaze.exe
+C:\Users\Mindaugas\Desktop\PraktikaDuomenuBaze\PraktikaDuomenuBaze\PraktikaDuomenuBaze\bin\Debug\PraktikaDuomenuBaze.pdb
+C:\Users\Mindaugas\Desktop\PraktikaDuomenuBaze\PraktikaDuomenuBaze\PraktikaDuomenuBaze\bin\Debug\MySql.Data.dll
+C:\Users\Maksim Archipov\Desktop\PraktikaDuomenuBaze\PraktikaDuomenuBaze\bin\Debug\PraktikaDuomenuBaze.exe.config
+C:\Users\Maksim Archipov\Desktop\PraktikaDuomenuBaze\PraktikaDuomenuBaze\bin\Debug\PraktikaDuomenuBaze.exe
+C:\Users\Maksim Archipov\Desktop\PraktikaDuomenuBaze\PraktikaDuomenuBaze\bin\Debug\PraktikaDuomenuBaze.pdb
+C:\Users\Maksim Archipov\Desktop\PraktikaDuomenuBaze\PraktikaDuomenuBaze\bin\Debug\MySql.Data.dll
+C:\Users\Maksim Archipov\Desktop\PraktikaDuomenuBaze\PraktikaDuomenuBaze\obj\Debug\PraktikaDuomenuBaze.csprojResolveAssemblyReference.cache
+C:\Users\Maksim Archipov\Desktop\PraktikaDuomenuBaze\PraktikaDuomenuBaze\obj\Debug\PraktikaDuomenuBaze.LogInForm.resources
+C:\Users\Maksim Archipov\Desktop\PraktikaDuomenuBaze\PraktikaDuomenuBaze\obj\Debug\PraktikaDuomenuBaze.MainFormAdmin.resources
+C:\Users\Maksim Archipov\Desktop\PraktikaDuomenuBaze\PraktikaDuomenuBaze\obj\Debug\PraktikaDuomenuBaze.Properties.Resources.resources
+C:\Users\Maksim Archipov\Desktop\PraktikaDuomenuBaze\PraktikaDuomenuBaze\obj\Debug\PraktikaDuomenuBaze.RegistrationForm.resources
+C:\Users\Maksim Archipov\Desktop\PraktikaDuomenuBaze\PraktikaDuomenuBaze\obj\Debug\PraktikaDuomenuBaze.RegistrationForm2.resources
+C:\Users\Maksim Archipov\Desktop\PraktikaDuomenuBaze\PraktikaDuomenuBaze\obj\Debug\PraktikaDuomenuBaze.csproj.GenerateResource.Cache
+C:\Users\Maksim Archipov\Desktop\PraktikaDuomenuBaze\PraktikaDuomenuBaze\obj\Debug\PraktikaDuomenuBaze.exe
+C:\Users\Maksim Archipov\Desktop\PraktikaDuomenuBaze\PraktikaDuomenuBaze\obj\Debug\PraktikaDuomenuBaze.pdb

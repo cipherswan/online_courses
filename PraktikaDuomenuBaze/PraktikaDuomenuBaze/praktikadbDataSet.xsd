@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="praktikadbDataSet" targetNamespace="http://tempuri.org/praktikadbDataSet.xsd" xmlns:mstns="http://tempuri.org/praktikadbDataSet.xsd" xmlns="http://tempuri.org/praktikadbDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="praktikadbConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="praktikadbConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.PraktikaDuomenuBaze.Properties.Settings.GlobalReference.Default.praktikadbConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="accountTableAdapter" GeneratorDataComponentClassName="accountTableAdapter" Name="account" UserDataComponentName="accountTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="praktikadbConnectionString (Settings)" DbObjectName="praktikadb.account" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `idAccount`, `Username`, `Password`, `IsAdmin`, `Person_idClient`, `Company_idClientCompany` FROM `account`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="clientorderTableAdapter" GeneratorDataComponentClassName="clientorderTableAdapter" Name="clientorder" UserDataComponentName="clientorderTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="praktikadbConnectionString (Settings)" DbObjectName="praktikadb.clientorder" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `idOrder`, `Price`, `ClientSolo_idClient` FROM `clientorder`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="clientorderedcoursesTableAdapter" GeneratorDataComponentClassName="clientorderedcoursesTableAdapter" Name="clientorderedcourses" UserDataComponentName="clientorderedcoursesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="praktikadbConnectionString (Settings)" DbObjectName="praktikadb.clientorderedcourses" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `Course_idCourse`, `Order_idOrder` FROM `clientorderedcourses`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="companyTableAdapter" GeneratorDataComponentClassName="companyTableAdapter" Name="company" UserDataComponentName="companyTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="praktikadbConnectionString (Settings)" DbObjectName="praktikadb.company" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `idClientCompany`, `Name`, `CompanyID`, `PhoneNumer`, `E-mailAddress`, `FAX`, `Address 1`, `Address 2` FROM `company`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="companyorderTableAdapter" GeneratorDataComponentClassName="companyorderTableAdapter" Name="companyorder" UserDataComponentName="companyorderTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="praktikadbConnectionString (Settings)" DbObjectName="praktikadb.companyorder" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `idCompanyOrder`, `AmountOfPeople`, `Cost`, `Company_idClientCompany` FROM `companyorder`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="companyorderedcoursesTableAdapter" GeneratorDataComponentClassName="companyorderedcoursesTableAdapter" Name="companyorderedcourses" UserDataComponentName="companyorderedcoursesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="praktikadbConnectionString (Settings)" DbObjectName="praktikadb.companyorderedcourses" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `Course_idCourse`, `CompanyOrder_idCompanyOrder` FROM `companyorderedcourses`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="courseTableAdapter" GeneratorDataComponentClassName="courseTableAdapter" Name="course" UserDataComponentName="courseTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="praktikadbConnectionString (Settings)" DbObjectName="praktikadb.course" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `idCourse`, `Name`, `Duration`, `Cost`, `Category_idCategory` FROM `course`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="coursecategoryTableAdapter" GeneratorDataComponentClassName="coursecategoryTableAdapter" Name="coursecategory" UserDataComponentName="coursecategoryTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="praktikadbConnectionString (Settings)" DbObjectName="praktikadb.coursecategory" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `idCategory`, `Name` FROM `coursecategory`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="groupTableAdapter" GeneratorDataComponentClassName="groupTableAdapter" Name="group" UserDataComponentName="groupTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="praktikadbConnectionString (Settings)" DbObjectName="praktikadb.`group`" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `idGroup`, `GroupName`, `StudentAmount`, `Course_idCourse` FROM `group`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="lessonTableAdapter" GeneratorDataComponentClassName="lessonTableAdapter" Name="lesson" UserDataComponentName="lessonTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="praktikadbConnectionString (Settings)" DbObjectName="praktikadb.lesson" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `idLesson`, `Name`, `Course_idCourse` FROM `lesson`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="personTableAdapter" GeneratorDataComponentClassName="personTableAdapter" Name="person" UserDataComponentName="personTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="praktikadbConnectionString (Settings)" DbObjectName="praktikadb.person" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `idClient`, `Name`, `Surname`, `DateOfBirth`, `PhoneNumber`, `E-mailAddress`, `Group_idGroup`, `ClientCompany_idClientCompany` FROM `person`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="persongroupsTableAdapter" GeneratorDataComponentClassName="persongroupsTableAdapter" Name="persongroups" UserDataComponentName="persongroupsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="praktikadbConnectionString (Settings)" DbObjectName="praktikadb.persongroups" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `Group_idGroup`, `Person_idClient` FROM `persongroups`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ratingTableAdapter" GeneratorDataComponentClassName="ratingTableAdapter" Name="rating" UserDataComponentName="ratingTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="praktikadbConnectionString (Settings)" DbObjectName="praktikadb.rating" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `idRating`, `Rating`, `Comment`, `Course_idCourse`, `Account_idAccount` FROM `rating`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="teachedcoursesTableAdapter" GeneratorDataComponentClassName="teachedcoursesTableAdapter" Name="teachedcourses" UserDataComponentName="teachedcoursesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="praktikadbConnectionString (Settings)" DbObjectName="praktikadb.teachedcourses" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `Course_idCourse`, `Teacher_idTeacher` FROM `teachedcourses`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="teacherTableAdapter" GeneratorDataComponentClassName="teacherTableAdapter" Name="teacher" UserDataComponentName="teacherTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="praktikadbConnectionString (Settings)" DbObjectName="praktikadb.teacher" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `idTeacher`, `Name`, `Surname`, `PhoneNumber`, `E-mailAddress`, `Fax` FROM `teacher`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="teachersgroupTableAdapter" GeneratorDataComponentClassName="teachersgroupTableAdapter" Name="teachersgroup" UserDataComponentName="teachersgroupTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="praktikadbConnectionString (Settings)" DbObjectName="praktikadb.teachersgroup" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `Teacher_idTeacher`, `Group_idGroup` FROM `teachersgroup`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="praktikadbDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="praktikadbDataSet" msprop:Generator_UserDSName="praktikadbDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="account" msprop:Generator_TableClassName="accountDataTable" msprop:Generator_TableVarName="tableaccount" msprop:Generator_TablePropName="account" msprop:Generator_RowDeletingName="accountRowDeleting" msprop:Generator_RowChangingName="accountRowChanging" msprop:Generator_RowEvHandlerName="accountRowChangeEventHandler" msprop:Generator_RowDeletedName="accountRowDeleted" msprop:Generator_UserTableName="account" msprop:Generator_RowChangedName="accountRowChanged" msprop:Generator_RowEvArgName="accountRowChangeEvent" msprop:Generator_RowClassName="accountRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="clientorder" msprop:Generator_TableClassName="clientorderDataTable" msprop:Generator_TableVarName="tableclientorder" msprop:Generator_TablePropName="clientorder" msprop:Generator_RowDeletingName="clientorderRowDeleting" msprop:Generator_RowChangingName="clientorderRowChanging" msprop:Generator_RowEvHandlerName="clientorderRowChangeEventHandler" msprop:Generator_RowDeletedName="clientorderRowDeleted" msprop:Generator_UserTableName="clientorder" msprop:Generator_RowChangedName="clientorderRowChanged" msprop:Generator_RowEvArgName="clientorderRowChangeEvent" msprop:Generator_RowClassName="clientorderRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="clientorderedcourses" msprop:Generator_TableClassName="clientorderedcoursesDataTable" msprop:Generator_TableVarName="tableclientorderedcourses" msprop:Generator_TablePropName="clientorderedcourses" msprop:Generator_RowDeletingName="clientorderedcoursesRowDeleting" msprop:Generator_RowChangingName="clientorderedcoursesRowChanging" msprop:Generator_RowEvHandlerName="clientorderedcoursesRowChangeEventHandler" msprop:Generator_RowDeletedName="clientorderedcoursesRowDeleted" msprop:Generator_UserTableName="clientorderedcourses" msprop:Generator_RowChangedName="clientorderedcoursesRowChanged" msprop:Generator_RowEvArgName="clientorderedcoursesRowChangeEvent" msprop:Generator_RowClassName="clientorderedcoursesRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="company" msprop:Generator_TableClassName="companyDataTable" msprop:Generator_TableVarName="tablecompany" msprop:Generator_TablePropName="company" msprop:Generator_RowDeletingName="companyRowDeleting" msprop:Generator_RowChangingName="companyRowChanging" msprop:Generator_RowEvHandlerName="companyRowChangeEventHandler" msprop:Generator_RowDeletedName="companyRowDeleted" msprop:Generator_UserTableName="company" msprop:Generator_RowChangedName="companyRowChanged" msprop:Generator_RowEvArgName="companyRowChangeEvent" msprop:Generator_RowClassName="companyRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="companyorder" msprop:Generator_TableClassName="companyorderDataTable" msprop:Generator_TableVarName="tablecompanyorder" msprop:Generator_TablePropName="companyorder" msprop:Generator_RowDeletingName="companyorderRowDeleting" msprop:Generator_RowChangingName="companyorderRowChanging" msprop:Generator_RowEvHandlerName="companyorderRowChangeEventHandler" msprop:Generator_RowDeletedName="companyorderRowDeleted" msprop:Generator_UserTableName="companyorder" msprop:Generator_RowChangedName="companyorderRowChanged" msprop:Generator_RowEvArgName="companyorderRowChangeEvent" msprop:Generator_RowClassName="companyorderRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="companyorderedcourses" msprop:Generator_TableClassName="companyorderedcoursesDataTable" msprop:Generator_TableVarName="tablecompanyorderedcourses" msprop:Generator_TablePropName="companyorderedcourses" msprop:Generator_RowDeletingName="companyorderedcoursesRowDeleting" msprop:Generator_RowChangingName="companyorderedcoursesRowChanging" msprop:Generator_RowEvHandlerName="companyorderedcoursesRowChangeEventHandler" msprop:Generator_RowDeletedName="companyorderedcoursesRowDeleted" msprop:Generator_UserTableName="companyorderedcourses" msprop:Generator_RowChangedName="companyorderedcoursesRowChanged" msprop:Generator_RowEvArgName="companyorderedcoursesRowChangeEvent" msprop:Generator_RowClassName="companyorderedcoursesRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="course" msprop:Generator_TableClassName="courseDataTable" msprop:Generator_TableVarName="tablecourse" msprop:Generator_TablePropName="course" msprop:Generator_RowDeletingName="courseRowDeleting" msprop:Generator_RowChangingName="courseRowChanging" msprop:Generator_RowEvHandlerName="courseRowChangeEventHandler" msprop:Generator_RowDeletedName="courseRowDeleted" msprop:Generator_UserTableName="course" msprop:Generator_RowChangedName="courseRowChanged" msprop:Generator_RowEvArgName="courseRowChangeEvent" msprop:Generator_RowClassName="courseRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="coursecategory" msprop:Generator_TableClassName="coursecategoryDataTable" msprop:Generator_TableVarName="tablecoursecategory" msprop:Generator_TablePropName="coursecategory" msprop:Generator_RowDeletingName="coursecategoryRowDeleting" msprop:Generator_RowChangingName="coursecategoryRowChanging" msprop:Generator_RowEvHandlerName="coursecategoryRowChangeEventHandler" msprop:Generator_RowDeletedName="coursecategoryRowDeleted" msprop:Generator_UserTableName="coursecategory" msprop:Generator_RowChangedName="coursecategoryRowChanged" msprop:Generator_RowEvArgName="coursecategoryRowChangeEvent" msprop:Generator_RowClassName="coursecategoryRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="group" msprop:Generator_TableClassName="groupDataTable" msprop:Generator_TableVarName="tablegroup" msprop:Generator_TablePropName="group" msprop:Generator_RowDeletingName="groupRowDeleting" msprop:Generator_RowChangingName="groupRowChanging" msprop:Generator_RowEvHandlerName="groupRowChangeEventHandler" msprop:Generator_RowDeletedName="groupRowDeleted" msprop:Generator_UserTableName="group" msprop:Generator_RowChangedName="groupRowChanged" msprop:Generator_RowEvArgName="groupRowChangeEvent" msprop:Generator_RowClassName="groupRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="lesson" msprop:Generator_TableClassName="lessonDataTable" msprop:Generator_TableVarName="tablelesson" msprop:Generator_TablePropName="lesson" msprop:Generator_RowDeletingName="lessonRowDeleting" msprop:Generator_RowChangingName="lessonRowChanging" msprop:Generator_RowEvHandlerName="lessonRowChangeEventHandler" msprop:Generator_RowDeletedName="lessonRowDeleted" msprop:Generator_UserTableName="lesson" msprop:Generator_RowChangedName="lessonRowChanged" msprop:Generator_RowEvArgName="lessonRowChangeEvent" msprop:Generator_RowClassName="lessonRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="person" msprop:Generator_TableClassName="personDataTable" msprop:Generator_TableVarName="tableperson" msprop:Generator_TablePropName="person" msprop:Generator_RowDeletingName="personRowDeleting" msprop:Generator_RowChangingName="personRowChanging" msprop:Generator_RowEvHandlerName="personRowChangeEventHandler" msprop:Generator_RowDeletedName="personRowDeleted" msprop:Generator_UserTableName="person" msprop:Generator_RowChangedName="personRowChanged" msprop:Generator_RowEvArgName="personRowChangeEvent" msprop:Generator_RowClassName="personRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="persongroups" msprop:Generator_TableClassName="persongroupsDataTable" msprop:Generator_TableVarName="tablepersongroups" msprop:Generator_TablePropName="persongroups" msprop:Generator_RowDeletingName="persongroupsRowDeleting" msprop:Generator_RowChangingName="persongroupsRowChanging" msprop:Generator_RowEvHandlerName="persongroupsRowChangeEventHandler" msprop:Generator_RowDeletedName="persongroupsRowDeleted" msprop:Generator_UserTableName="persongroups" msprop:Generator_RowChangedName="persongroupsRowChanged" msprop:Generator_RowEvArgName="persongroupsRowChangeEvent" msprop:Generator_RowClassName="persongroupsRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rating" msprop:Generator_TableClassName="ratingDataTable" msprop:Generator_TableVarName="tablerating" msprop:Generator_TablePropName="rating" msprop:Generator_RowDeletingName="ratingRowDeleting" msprop:Generator_RowChangingName="ratingRowChanging" msprop:Generator_RowEvHandlerName="ratingRowChangeEventHandler" msprop:Generator_RowDeletedName="ratingRowDeleted" msprop:Generator_UserTableName="rating" msprop:Generator_RowChangedName="ratingRowChanged" msprop:Generator_RowEvArgName="ratingRowChangeEvent" msprop:Generator_RowClassName="ratingRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="teachedcourses" msprop:Generator_TableClassName="teachedcoursesDataTable" msprop:Generator_TableVarName="tableteachedcourses" msprop:Generator_TablePropName="teachedcourses" msprop:Generator_RowDeletingName="teachedcoursesRowDeleting" msprop:Generator_RowChangingName="teachedcoursesRowChanging" msprop:Generator_RowEvHandlerName="teachedcoursesRowChangeEventHandler" msprop:Generator_RowDeletedName="teachedcoursesRowDeleted" msprop:Generator_UserTableName="teachedcourses" msprop:Generator_RowChangedName="teachedcoursesRowChanged" msprop:Generator_RowEvArgName="teachedcoursesRowChangeEvent" msprop:Generator_RowClassName="teachedcoursesRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="teacher" msprop:Generator_TableClassName="teacherDataTable" msprop:Generator_TableVarName="tableteacher" msprop:Generator_TablePropName="teacher" msprop:Generator_RowDeletingName="teacherRowDeleting" msprop:Generator_RowChangingName="teacherRowChanging" msprop:Generator_RowEvHandlerName="teacherRowChangeEventHandler" msprop:Generator_RowDeletedName="teacherRowDeleted" msprop:Generator_UserTableName="teacher" msprop:Generator_RowChangedName="teacherRowChanged" msprop:Generator_RowEvArgName="teacherRowChangeEvent" msprop:Generator_RowClassName="teacherRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="teachersgroup" msprop:Generator_TableClassName="teachersgroupDataTable" msprop:Generator_TableVarName="tableteachersgroup" msprop:Generator_TablePropName="teachersgroup" msprop:Generator_RowDeletingName="teachersgroupRowDeleting" msprop:Generator_RowChangingName="teachersgroupRowChanging" msprop:Generator_RowEvHandlerName="teachersgroupRowChangeEventHandler" msprop:Generator_RowDeletedName="teachersgroupRowDeleted" msprop:Generator_UserTableName="teachersgroup" msprop:Generator_RowChangedName="teachersgroupRowChanged" msprop:Generator_RowEvArgName="teachersgroupRowChangeEvent" msprop:Generator_RowClassName="teachersgroupRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
